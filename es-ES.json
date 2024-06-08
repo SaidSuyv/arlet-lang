@@ -1,6 +1,10 @@
 {
     "lang":"es-ES",
     "common": {
+        "error":
+        {
+            "working":"Página en progreso. Regresa pronto"
+        },
         "nav": {
             "logo": {
                 "panel": "Panel de Control",
