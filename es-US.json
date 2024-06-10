@@ -1,0 +1,31 @@
+{
+    "lang":"es-ES",
+    "common": {
+        "error":
+        {
+            "working":"Página en progreso. Regresa pronto"
+        },
+        "nav": {
+            "current":"Panel de Control",
+            "company_name":"Digysoft",
+            "sell_button":"Vender",
+            "items": {
+                "resume": "Resumen",
+                "reports": "Reportes",
+                "vouchers": "Comprobantes electrónicos",
+                "sells": "Ventas Realizadas",
+                "products": "Productos",
+                "inventory": "Inventario",
+                "config": "Configuración",
+                "licence": "Licencia",
+                "logout": "Cerrar sesión"
+            }
+        }
+    },
+    "pages": {
+        "dashboard": {
+            "p1":"Bienvenido al Panel de Control",
+            "p2":"Seleccione una opción de la lista para continuar"
+        }
+    }
+}
