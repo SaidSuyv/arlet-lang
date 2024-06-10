@@ -6,11 +6,9 @@
             "working":"Página en progreso. Regresa pronto"
         },
         "nav": {
-            "logo": {
-                "panel": "Panel de Control",
-                "company": "Digysoft"
-            },
-            "sell_btn": "Vender",
+            "current":"Panel de Control",
+            "company_name":"Digysoft",
+            "sell_button":"Vender",
             "items": {
                 "resume": "Resumen",
                 "reports": "Reportes",
@@ -18,7 +16,7 @@
                 "sells": "Ventas Realizadas",
                 "products": "Productos",
                 "inventory": "Inventario",
-                "configuration": "Configuración",
+                "config": "Configuración",
                 "licence": "Licencia",
                 "logout": "Cerrar sesión"
             }
@@ -26,12 +24,8 @@
     },
     "pages": {
         "dashboard": {
-            "body": {
-                "main": {
-                    "center1": "Bienvenido al Panel de Control",
-                    "center2": "Seleccione una opción de la lista para continuar"
-                }
-            }
+            "p1":"Bienvenido al Panel de Control",
+            "p2":"Seleccione una opción de la lista para continuar"
         }
     }
 }
