@@ -1,0 +1,31 @@
+{
+    "lang":"en",
+    "common": {
+        "error":
+        {
+            "working":"Page in process. Please get back later"
+        },
+        "nav": {
+            "current":"Control Panel",
+            "company_name":"Digysoft",
+            "sell_button":"Sell",
+            "items": {
+                "resume": "Resume",
+                "reports": "Reports",
+                "vouchers": "Digital Vouchers",
+                "sells": "Sells",
+                "products": "Products",
+                "inventory": "Inventory",
+                "configuration": "Configuration",
+                "licence": "Licence",
+                "logout": "Logut"
+            }
+        }
+    },
+    "pages": {
+        "dashboard": {
+            "p1":"Welcome to Panel Control",
+            "p2":"Select an option from the nav list to continue"
+        }
+    }
+}
