@@ -98,7 +98,7 @@
                     "total": "Total S/.",
                     "table":
                     {
-                        "client": "Client",
+                        "client": "Cliente",
                         "phone": "Teléfono",
                         "balance": "Saldo (S/.)"
                     }
