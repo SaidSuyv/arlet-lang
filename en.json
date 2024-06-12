@@ -39,7 +39,11 @@
                 "products_number": "No. Products"
             },
             "today_button": "Today",
-            "filter_button": "Filters",
+            "filter":
+            {
+                "since": "Since",
+                "to":"To"
+            },
             "total_profit": "Total profit",
             "total_sell": "Total sells",
             "most_sell_products": "Most products sells"

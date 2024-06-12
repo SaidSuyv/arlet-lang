@@ -39,7 +39,11 @@
                 "products_number": "Nro. Productos"
             },
             "today_button": "Hoy",
-            "filter_button": "Filtros",
+            "filter":
+            {
+                "since": "Desde",
+                "to":"Hasta"
+            },
             "total_profit": "Total ganancia",
             "total_sell": "Total ventas",
             "most_sell_products": "Los 5 productos más vendidos"
