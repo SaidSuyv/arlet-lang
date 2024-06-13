@@ -46,7 +46,8 @@
             },
             "total_profit": "Total profit",
             "total_sell": "Total sells",
-            "most_sell_products": "Most products sells"
+            "most_sell_products": "Most products sells",
+            "linear_bar_legend":"Total amount"
         },
         "reports":
         {
