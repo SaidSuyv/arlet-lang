@@ -3,7 +3,8 @@
     "common": {
         "error":
         {
-            "working":"Page in process. Please get back later"
+            "working":"Page in process. Please get back later",
+            "network": "There was an unexpected connection error"
         },
         "nav": {
             "current":"Control Panel",
