@@ -1,0 +1,11 @@
+
+{
+    "nav":
+    {
+        "invoices": "Facturas",
+        "sales_tickets": "Boletas de Ventas",
+        "credit_notes": "Notas de Crédito",
+        "debit_notes": "Notas de Débito",
+        "comms": "Comunic. de Baja"
+    }
+}
