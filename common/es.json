@@ -5,85 +5,16 @@
     },
     "nav": {
         "sell_button": "Vender",
-        "items": [
-            {
-                "icon": "speedometer2",
-                "title": "Resumen"
-            },
-            {
-                "icon": "clipboard-data",
-                "title": "Reportes",
-                "sub-nav":
-                [
-                    {
-                        "icon": "shop",
-                        "title": "Resumen de Ventas"
-                    },
-                    {
-                        "icon": "cart",
-                        "title": "Productos"
-                    },
-                    {
-                        "icon": "file-earmark-fill",
-                        "title": "Registro de Ventas"
-                    },
-                    {
-                        "icon": "buildings",
-                        "title": "Registro CPE SUNAT"
-                    }
-                ]
-            },
-            {
-                "icon": "receipt",
-                "title": "Comprobantes electrónicos",
-                "sub-nav":
-                [
-                    {
-                        "icon": "receipt-cutoff",
-                        "title": "Facturas" 
-                    },
-                    {
-                        "icon": "receipt-cutoff",
-                        "title": "Boletas de Venta" 
-                    },
-                    {
-                        "icon": "receipt-cutoff",
-                        "title": "Notas de Crédito" 
-                    },
-                    {
-                        "icon": "receipt-cutoff",
-                        "title": "Notas de Débito" 
-                    },
-                    {
-                        "icon": "receipt-cutoff",
-                        "title": "Comunic. de Baja" 
-                    }
-                ]
-            },
-            {
-                "icon": "coin",
-                "title": "Ventas realizadas"
-            },
-            {
-                "icon": "cart",
-                "title": "Products"
-            },
-            {
-                "icon": "archive",
-                "title": "Inventario"
-            },
-            {
-                "icon": "patch-check",
-                "title": "Licencia"
-            },
-            {
-                "icon": "gear",
-                "title": "Configuración"
-            },
-            {
-                "icon": "box-arrow-right",
-                "title": "Cerrar sesión"
-            }
-        ]
+        "links": {
+            "resume": "Resumen",
+            "reports": "Reportes",
+            "vouchers": "Comprobantes electrónicos",
+            "sells": "Ventas Realizadas",
+            "products": "Productos",
+            "inventory": "Inventario",
+            "config": "Configuración",
+            "licence": "Licencia",
+            "logout": "Cerrar sesión"
+        }
     }
 }
