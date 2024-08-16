@@ -12,6 +12,10 @@
         "links": {
             "resume": "Resumen",
             "reports": "Reportes",
+            "reports_sales_resume": "Resumen de Ventas",
+            "reports_products": "Productos",
+            "reports_sales_register": "Registro de Ventas",
+            "reports_CPE_register": "Registro CPE SUNAT",
             "vouchers": "Comprobantes electrónicos",
             "sales": "Ventas Realizadas",
             "products": "Productos",
