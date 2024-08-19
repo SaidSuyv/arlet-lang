@@ -1,0 +1,28 @@
+{
+    "dashboard": {
+        "p1":"Welcome to the Control Panel",
+        "p2":"Select an option from the nav list to continue"
+    },
+    "error": {
+        "working": "Page in progress..Get back later",
+        "network": "There was an unexpected connection error..try later"
+    },
+    "nav": {
+        "sell_button": "Sell",
+        "links": {
+            "resume": "Summary",
+            "reports": "Reports",
+            "reports_sales_resume": "Sales summary",
+            "reports_products": "Products",
+            "reports_sales_register": "Sales register",
+            "reports_CPE_register": "CPE SUNAT Register",
+            "vouchers": "Vouchers",
+            "sales": "Sales",
+            "products": "Products",
+            "inventory": "Inventory",
+            "config": "Configuration",
+            "licence": "Licence",
+            "logout": "Log out"
+        }
+    }
+}
