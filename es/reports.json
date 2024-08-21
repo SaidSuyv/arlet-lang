@@ -19,7 +19,7 @@
         "resume":
         {
             "title": "Resumen de Reporte de Ventas",
-            "date":
+            "filter":
             {
                 "since": "Desde",
                 "to": "Hasta"
