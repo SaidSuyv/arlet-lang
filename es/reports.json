@@ -12,7 +12,12 @@
     {
         "resume":
         {
-            "title": "Resumen de Reporte de Ventas",
+            "titles": 
+            {
+                "resume":"Resumen de Reporte de Ventas",
+                "user_sales":"Resumen de Ventas por Usuario",
+                "voucher_sales": "Resumen de Ventas por Comprobante"
+            },
             "tab":
             {
                 "resume": "Resumen de Ventas",
@@ -22,7 +27,9 @@
             "filter":
             {
                 "since": "Desde",
-                "to": "Hasta"
+                "to": "Hasta",
+                "users": "Usuario",
+                "all": "Todos"
             },
             "buttons":
             {
