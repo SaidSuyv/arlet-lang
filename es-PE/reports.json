@@ -1,41 +1,32 @@
 
 {
-    "nav":
-    {
-        "resume":"Resumen de Ventas",
-        "credits_charge": "Créditos por cobrar",
-        "products": "Productos",
-        "sell_register": "Registro de Ventas",
-        "sunat_register": "Registro CPE SUNAT"
-    },
     "p1": "Seleccione un tipo de reporte",
     "generated": "Reporte generado por",
     "visit": "visita",
     "export_buttons":
     {
-        "excel": "Excel",
-        "pdf": "PDF"
+        "excel": "Exportar como Excel",
+        "pdf": "Exportar como PDF"
+    },
+    "tab":
+    {
+        "resume": "Resumen de Ventas",
+        "user_sells": "Ventas por Usuario",
+        "voucher_sells": "Ventas por Comprobante"
     },
     "subpages":
     {
         "resume":
         {
-            "tab":
-            {
-                "resume": "Resumen de Ventas",
-                "user_sells": "Ventas por Usuario",
-                "voucher_sells": "Ventas por Comprobante"
-            },
-            "title": "Resumen de ",
+            "title": "Resumen de Reporte de Ventas",
             "date":
             {
                 "since": "Desde",
-                "to": "Hasta",
-                "user": "Usuario"
+                "to": "Hasta"
             },
             "buttons":
             {
-                "filter": "Filtro"
+                "today": "Hoy"
             },
             "table":
             {
