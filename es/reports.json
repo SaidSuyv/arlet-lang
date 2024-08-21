@@ -8,17 +8,17 @@
         "excel": "Exportar como Excel",
         "pdf": "Exportar como PDF"
     },
-    "tab":
-    {
-        "resume": "Resumen de Ventas",
-        "user_sells": "Ventas por Usuario",
-        "voucher_sells": "Ventas por Comprobante"
-    },
     "subpages":
     {
         "resume":
         {
             "title": "Resumen de Reporte de Ventas",
+            "tab":
+            {
+                "resume": "Resumen de Ventas",
+                "user_sells": "Ventas por Usuario",
+                "voucher_sells": "Ventas por Comprobante"
+            },
             "filter":
             {
                 "since": "Desde",
