@@ -3,38 +3,67 @@
     "p1": "Seleccione un tipo de reporte",
     "generated": "Reporte generado por",
     "visit": "visita",
-    "export_buttons":
-    {
-        "excel": "Exportar como Excel",
-        "pdf": "Exportar como PDF"
-    },
-    "tab":
-    {
-        "resume": "Resumen de Ventas",
-        "user_sells": "Ventas por Usuario",
-        "voucher_sells": "Ventas por Comprobante"
-    },
     "subpages":
     {
         "resume":
         {
-            "title": "Resumen de Reporte de Ventas",
-            "date":
-            {
-                "since": "Desde",
-                "to": "Hasta"
-            },
             "buttons":
             {
                 "today": "Hoy"
             },
-            "table":
+            "filter":
             {
-                "date": "Fecha",
-                "gross_sale": "Venta Bruta",
-                "product_cost": "Costo de Producto",
-                "profit": "Ganancia",
-                "pagination": "de"
+                "since": "Desde",
+                "to": "Hasta",
+                "users": "Usuario",
+                "vouchers": "Comprobantes"
+            },
+            "export_buttons":
+            {
+                "excel": "Exportar como Excel",
+                "pdf": "Exportar como PDF"
+            },
+            "tabs":
+            {
+                "sales_resume":
+                {
+                    "tabname": "Resumen de Ventas",
+                    "title": "Reporte de Resumen de Ventas",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia",
+                        "goto": "Ir a la página"
+                    }
+                },
+                "sales_user": 
+                {
+                    "tabname":"Ventas por Usuario",
+                    "title": "Reporte de Ventas por Usuario",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia",
+                        "goto": "Ir a la página"
+                    }
+                },
+                "sales_voucher": 
+                {
+                    "tabname":"Ventas por Comprobante",
+                    "title": "Reporte de Ventas por Comprobante",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia",
+                        "goto": "Ir a la página"
+                    }
+                }
             }
         },
         "credits_charge":
