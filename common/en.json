@@ -8,7 +8,8 @@
     },
     "error": {
         "working": "Page in progress..Get back later",
-        "network": "There was an unexpected connection error..try later"
+        "network": "There was an unexpected connection error..try later",
+				"general": "Sorry, looks like we had an unexpected problem.."
     },
     "nav": {
         "sell_button": "Sell",
