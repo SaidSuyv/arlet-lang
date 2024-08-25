@@ -49,7 +49,8 @@
                         "gross_sale": "Brute sale",
                         "product_cost": "Product cost",
                         "profit": "Profit",
-                        "goto": "Go to"
+                        "goto": "Go to page",
+                        "selectpage": "Select a page"
                     }
                 },
                 "sales_voucher": 
@@ -62,7 +63,8 @@
                         "gross_sale": "Brute sale",
                         "product_cost": "Product cost",
                         "profit": "Profit",
-                        "goto": "Go to"
+                        "goto": "Go to page",
+                        "selectpage": "Select a page"
                     }
                 }
             }
