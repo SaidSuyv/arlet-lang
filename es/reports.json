@@ -71,8 +71,15 @@
         },
         "credits_charge":
         {
-            "title": "Reporte Cuentas por Cobrar",
-            "total": "Total S/.",
+            "title": "Resume de Reporte Cuentas por Cobrar",
+            "total": "Total",
+            "export_buttons":
+            {
+                "excel": "Exportar como Excel",
+                "pdf": "Exportar como PDF"
+            },
+            "gotopage":"Ir a la página",
+            "selectapage":"Seleccione una página",
             "table":
             {
                 "client": "Cliente",
@@ -85,19 +92,69 @@
             "title": "Reporte General de Inventario",
             "tab":
             {
-                "inventory": "Inventario",
-                "expired_products": "Productos Vencidos",
-                "low_stock": "Stock bajo"
-            },
-            "table":
-            {
-                "code": "Código",
-                "product": "Producto",
-                "product_cost": "P.Costo",
-                "product_sell": "P.Venta",
-                "stock": "Stock",
-                "import": "Importe(S/.)",
-                "pagination":"de"
+                "inventory":
+                {
+                    "tabname":"Inventory",
+                    "title":"Reporte General de Inventario",
+                    "export_buttons":
+                    {
+                        "excel": "Exportar como Excel",
+                        "pdf": "Exportar como PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "product_cost": "P.Costo",
+                        "product_sell": "P.Venta",
+                        "stock": "Stock",
+                        "import": "Importe(S/.)",
+                        "gotopage":"Ir a la página",
+                        "selectpage":"Selecciona una página"
+                    }
+                },
+                "expired_products":
+                {
+                    "tabname":"Productos Vencidos",
+                    "title":"Reporte General de Inventario",
+                    "export_buttons":
+                    {
+                        "excel": "Exportar como Excel",
+                        "pdf": "Exportar como PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "product_cost": "P.Costo",
+                        "product_sell": "P.Venta",
+                        "stock": "Stock",
+                        "import": "Importe(S/.)",
+                        "gotopage":"Ir a la página",
+                        "selectpage":"Selecciona una página"
+                    }
+                },
+                "inventory":
+                {
+                    "tabname":"Inventory",
+                    "title":"Reporte General de Inventario",
+                    "export_buttons":
+                    {
+                        "excel": "Exportar como Excel",
+                        "pdf": "Exportar como PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
+                        "product_cost": "P.Costo",
+                        "product_sell": "P.Venta",
+                        "stock": "Stock",
+                        "import": "Importe(S/.)",
+                        "gotopage":"Ir a la página",
+                        "selectpage":"Selecciona una página"
+                    }
+                }
             }
         },
         "sell_register":
