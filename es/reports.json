@@ -81,7 +81,7 @@
             "table":
             {
                 "gotopage":"Ir a la página",
-                "selectapage":"Seleccione una página",
+                "selectpage":"Seleccione una página",
                 "client": "Cliente",
                 "phone": "Teléfono",
                 "balance": "Saldo (S/.)"
