@@ -89,8 +89,7 @@
         },
         "products":
         {
-            "title": "Reporte General de Inventario",
-            "tab":
+            "tabs":
             {
                 "inventory":
                 {
@@ -106,7 +105,7 @@
                         "code": "Código",
                         "product": "Producto",
                         "product_cost": "P.Costo",
-                        "product_sell": "P.Venta",
+                        "product_sale": "P.Venta",
                         "stock": "Stock",
                         "import": "Importe(S/.)",
                         "gotopage":"Ir a la página",
@@ -126,10 +125,28 @@
                     {
                         "code": "Código",
                         "product": "Producto",
+                        "expiration_date": "Fecha de vencimiento",
+                        "gotopage":"Ir a la página",
+                        "selectpage":"Selecciona una página"
+                    }
+                },
+                "low_stock":
+                {
+                    "tabname":"Stock Bajo",
+                    "title":"Reporte de Stock Bajo",
+                    "export_buttons":
+                    {
+                        "excel": "Exportar como Excel",
+                        "pdf": "Exportar como PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Código",
+                        "product": "Producto",
                         "product_cost": "P.Costo",
-                        "product_sell": "P.Venta",
-                        "stock": "Stock",
-                        "import": "Importe(S/.)",
+                        "category": "Categoria",
+                        "quantity": "Cantidad",
+                        "minimum_stock": "Stock minimo",
                         "gotopage":"Ir a la página",
                         "selectpage":"Selecciona una página"
                     }
