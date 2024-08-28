@@ -35,7 +35,7 @@
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
                         "profit": "Ganancia",
-                        "goto": "Ir a la página",
+                        "gotopage": "Ir a la página",
                         "selectpage": "Selecciona una página"
                     }
                 },
@@ -78,10 +78,10 @@
                 "excel": "Exportar como Excel",
                 "pdf": "Exportar como PDF"
             },
-            "gotopage":"Ir a la página",
-            "selectapage":"Seleccione una página",
             "table":
             {
+                "gotopage":"Ir a la página",
+                "selectapage":"Seleccione una página",
                 "client": "Cliente",
                 "phone": "Teléfono",
                 "balance": "Saldo (S/.)"
@@ -116,27 +116,6 @@
                 "expired_products":
                 {
                     "tabname":"Productos Vencidos",
-                    "title":"Reporte General de Inventario",
-                    "export_buttons":
-                    {
-                        "excel": "Exportar como Excel",
-                        "pdf": "Exportar como PDF"
-                    },
-                    "table":
-                    {
-                        "code": "Código",
-                        "product": "Producto",
-                        "product_cost": "P.Costo",
-                        "product_sell": "P.Venta",
-                        "stock": "Stock",
-                        "import": "Importe(S/.)",
-                        "gotopage":"Ir a la página",
-                        "selectpage":"Selecciona una página"
-                    }
-                },
-                "inventory":
-                {
-                    "tabname":"Inventory",
                     "title":"Reporte General de Inventario",
                     "export_buttons":
                     {
