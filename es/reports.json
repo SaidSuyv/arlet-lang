@@ -49,7 +49,7 @@
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
                         "profit": "Ganancia",
-                        "goto": "Ir a la página",
+                        "gotopage": "Ir a la página",
                         "selectpage": "Selecciona una página"
                     }
                 },
@@ -63,7 +63,7 @@
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
                         "profit": "Ganancia",
-                        "goto": "Ir a la página",
+                        "gotopage": "Ir a la página",
                         "selectpage": "Selecciona una página"
                     }
                 }
