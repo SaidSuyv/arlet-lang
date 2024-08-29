@@ -3,6 +3,14 @@
     "p1": "Seleccione un tipo de reporte",
     "generated": "Reporte generado por",
     "visit": "visita",
+    "buttons":
+    {
+        "exportation":
+        {
+            "excel": "Exportar como Excel",
+            "pdf": "Exportar como PDF"
+        }
+    },
     "subpages":
     {
         "resume":
@@ -17,11 +25,6 @@
                 "to": "Hasta",
                 "users": "Usuario",
                 "vouchers": "Comprobantes"
-            },
-            "export_buttons":
-            {
-                "excel": "Exportar como Excel",
-                "pdf": "Exportar como PDF"
             },
             "tabs":
             {

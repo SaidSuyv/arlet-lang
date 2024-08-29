@@ -14,7 +14,7 @@ for lang in langs:
 
     # Translates to JSON
     j_obj = json.loads(text)
-    print(j_obj)
+    # print(j_obj)
 
     for pref in prefixes:
 
