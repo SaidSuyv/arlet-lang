@@ -17,9 +17,8 @@ for lang in langs:
     print(j_obj)
 
     for pref in prefixes:
-        # Update lang property
-        j_obj['lang'] = "{0}-{1}".format(lang,pref)
-        
+
+        # ------- HANDLE COMMON FILES ----------
         # Dumps it to text
         text = json.dumps(j_obj)
 
@@ -27,3 +26,9 @@ for lang in langs:
         file = open("./common/{0}-{1}.json".format(lang,pref),'w',encoding='utf-8')
         file.write(text)
         file.close()
+
+        # ------- HANDLE LANGUAGES FILES ---------
+        # Delete prefix
+        os.system("rm {0}-{1} -rf".format(lang,pref))
+        # Copies main lang to prefix lang
+        os.system("cp {0} {0}-{1} -r".format(lang,pref))
