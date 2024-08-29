@@ -71,33 +71,89 @@
         },
         "credits_charge":
         {
-            "title": "Reporte Cuentas por Cobrar",
-            "total": "Total S/.",
+            "title": "Report of Credits for charge",
+            "total": "Total",
+            "export_buttons":
+            {
+                "excel": "Export as Excel",
+                "pdf": "Export as PDF"
+            },
             "table":
             {
-                "client": "Cliente",
-                "phone": "Teléfono",
-                "balance": "Saldo (S/.)"
+                "gotopage":"Go to page",
+                "selectpage":"Select a page",
+                "client": "Client",
+                "phone": "Phone",
+                "balance": "Balance (S/.)"
             }
         },
         "products":
         {
-            "title": "Reporte General de Inventario",
-            "tab":
+            "tabs":
             {
-                "inventory": "Inventario",
-                "expired_products": "Productos Vencidos",
-                "low_stock": "Stock bajo"
-            },
-            "table":
-            {
-                "code": "Código",
-                "product": "Producto",
-                "product_cost": "P.Costo",
-                "product_sell": "P.Venta",
-                "stock": "Stock",
-                "import": "Importe(S/.)",
-                "pagination":"de"
+                "inventory":
+                {
+                    "tabname":"Inventory",
+                    "title":"Inventory General Report",
+                    "export_buttons":
+                    {
+                        "excel": "Export as Excel",
+                        "pdf": "Export as PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Code",
+                        "product": "Product",
+                        "product_cost": "P.Cost",
+                        "product_sale": "P.Sale",
+                        "stock": "Stock",
+                        "import": "Import(S/.)",
+                        "gotopage":"Go to page",
+                        "selectpage":"Select a page"
+                    }
+                },
+                "expired_products":
+                {
+                    "tabname":"Expired products",
+                    "title":"Report of Experied Products",
+                    "export_buttons":
+                    {
+                        "excel": "Export as Excel",
+                        "pdf": "Export as PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Code",
+                        "product": "Product",
+                        "product_cost": "P.Cost",
+                        "product_sale": "P.Sale",
+                        "stock": "Stock",
+                        "import": "Import(S/.)",
+                        "gotopage":"Go to page",
+                        "selectpage":"Select a page"
+                    }
+                },
+                "low_stock":
+                {
+                    "tabname":"Low Stock",
+                    "title":"Report of Low Stock",
+                    "export_buttons":
+                    {
+                        "excel": "Export as Excel",
+                        "pdf": "Export as PDF"
+                    },
+                    "table":
+                    {
+                        "code": "Code",
+                        "product": "Product",
+                        "product_cost": "P.Cost",
+                        "category": "Category",
+                        "quantity": "Quantity",
+                        "minimum_stock": "Minimum Stock",
+                        "gotopage":"Go to page",
+                        "selectpage":"Select a page"
+                    }
+                }
             }
         },
         "sell_register":
