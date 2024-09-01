@@ -1,34 +1,16 @@
-
 {
-    "p1": "Seleccione un tipo de reporte",
-    "generated": "Reporte generado por",
-    "visit": "visita",
-    "buttons":
-    {
-        "exportation":
-        {
-            "excel": "Exportar como Excel",
-            "pdf": "Exportar como PDF"
-        }
-    },
     "subpages":
     {
-        "resume":
+        "summary":
         {
-            "buttons":
-            {
-                "today": "Hoy"
-            },
             "filter":
             {
-                "since": "Desde",
-                "to": "Hasta",
                 "users": "Usuario",
                 "vouchers": "Comprobantes"
             },
             "tabs":
             {
-                "sales_resume":
+                "sales_summary":
                 {
                     "tabname": "Resumen de Ventas",
                     "title": "Reporte de Resumen de Ventas",
@@ -37,9 +19,7 @@
                         "date": "Fecha",
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
-                        "profit": "Ganancia",
-                        "gotopage": "Ir a la página",
-                        "selectpage": "Selecciona una página"
+                        "profit": "Ganancia"
                     }
                 },
                 "sales_user": 
@@ -51,9 +31,7 @@
                         "date": "Fecha",
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
-                        "profit": "Ganancia",
-                        "gotopage": "Ir a la página",
-                        "selectpage": "Selecciona una página"
+                        "profit": "Ganancia"
                     }
                 },
                 "sales_voucher": 
@@ -65,26 +43,17 @@
                         "date": "Fecha",
                         "gross_sale": "Venta Bruta",
                         "product_cost": "Costo de Producto",
-                        "profit": "Ganancia",
-                        "gotopage": "Ir a la página",
-                        "selectpage": "Selecciona una página"
+                        "profit": "Ganancia"
                     }
                 }
             }
         },
         "credits_charge":
         {
-            "title": "Resume de Reporte Cuentas por Cobrar",
+            "title": "Resumen de Reporte Cuentas por Cobrar",
             "total": "Total",
-            "export_buttons":
-            {
-                "excel": "Exportar como Excel",
-                "pdf": "Exportar como PDF"
-            },
             "table":
             {
-                "gotopage":"Ir a la página",
-                "selectpage":"Seleccione una página",
                 "client": "Cliente",
                 "phone": "Teléfono",
                 "balance": "Saldo (S/.)"
@@ -96,13 +65,8 @@
             {
                 "inventory":
                 {
-                    "tabname":"Inventory",
+                    "tabname":"Inventario",
                     "title":"Reporte General de Inventario",
-                    "export_buttons":
-                    {
-                        "excel": "Exportar como Excel",
-                        "pdf": "Exportar como PDF"
-                    },
                     "table":
                     {
                         "code": "Código",
@@ -110,38 +74,24 @@
                         "product_cost": "P.Costo",
                         "product_sale": "P.Venta",
                         "stock": "Stock",
-                        "import": "Importe(S/.)",
-                        "gotopage":"Ir a la página",
-                        "selectpage":"Selecciona una página"
+                        "import": "Importe(S/.)"
                     }
                 },
                 "expired_products":
                 {
                     "tabname":"Productos Vencidos",
-                    "title":"Reporte General de Inventario",
-                    "export_buttons":
-                    {
-                        "excel": "Exportar como Excel",
-                        "pdf": "Exportar como PDF"
-                    },
+                    "title":"Reporte de Productos Vencidos",
                     "table":
                     {
                         "code": "Código",
                         "product": "Producto",
-                        "expiration_date": "Fecha de vencimiento",
-                        "gotopage":"Ir a la página",
-                        "selectpage":"Selecciona una página"
+                        "expiration_date": "Fecha de vencimiento"
                     }
                 },
                 "low_stock":
                 {
                     "tabname":"Stock Bajo",
                     "title":"Reporte de Stock Bajo",
-                    "export_buttons":
-                    {
-                        "excel": "Exportar como Excel",
-                        "pdf": "Exportar como PDF"
-                    },
                     "table":
                     {
                         "code": "Código",
@@ -149,84 +99,21 @@
                         "product_cost": "P.Costo",
                         "category": "Categoria",
                         "quantity": "Cantidad",
-                        "minimum_stock": "Stock minimo",
-                        "gotopage":"Ir a la página",
-                        "selectpage":"Selecciona una página"
+                        "minimum_stock": "Stock minimo"
                     }
                 }
             }
         },
         "sell_register":
         {
-            "title1":"Registro de Ventas del mes de",
-            "title2":"del",
-            "export_buttons":
-            {
-                "print":"Imprimir",
-                "send":"Enviar reporte"
-            },
-            "date_filter":
-            {
-                "text":"Seleccione Año y Mes",
-                "month":"Mes",
-                "year": "Año"
-            },
-            "tab":
-            {
-                "register": "Registro",
-                "reference": "Referencia del Comprobante de pago o Documento Original Modificado"
-            },
-            "table":
-            {
-                "pagination":"de",
-                "register":
-                {
-                    "number":"Número",
-                    "ruc_dni":"RUC/DNI",
-                    "name_social":"Nombre/Razón Social",
-                    "me":"M.E.",
-                    "tc":"T/C",
-                    "sell":"V.Venta",
-                    "igv":"I.G.V. 18%",
-                    "product_sell":"P.Venta"
-                },
-                "reference":
-                {
-                    "date":"Fecha",
-                    "tp":"TP",
-                    "serial":"Serie",
-                    "number":"Número",
-                    "base_import":"Base Imp.",
-                    "igv":"I.G.V."
-                }
-            }
         },
         "sunat_register":
         {
-            "title1":"Registro de CPE - SUNAT del mes de",
-            "title2":"del",
-            "table":
-            {
-                "date":"Fecha",
-                "tp":"TP",
-                "serial":"Serie",
-                "number":"Número",
-                "ruc_dni":"RUC/DNI",
-                "name_social":"Nombre/Razón Social",
-                "pay_type":"Tipo Pago",
-                "coin":"Moneda",
-                "import":"Importe",
-                "tc":"T/C",
-                "balance":"Saldo",
-                "state": "Estado",
-                "f_vto":"F.Vto",
-                "mail":"Mail",
-                "xml":"XML",
-                "cashier":"Cajero",
-                "file":"Archivo",
-                "sunat_response":"Respuesta SUNAT",
-                "result":"Resultado"
-            }
         }
+    },
+    "footer":
+    {
+        "generated": "Reporte generado por",
+        "visit": "visita"
     }
 }

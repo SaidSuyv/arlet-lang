@@ -1,38 +1,140 @@
 {
-    "dashboard": {
-        "p1":"Bienvenido al Panel de Control",
-        "p2":"Seleccione una opción de la lista para continuar"
-    },
-    "selectAPage": {
-        "p1":"Selecciona una opción del menú"
+    "pages":
+    {
+        "welcome": {
+            "p1":"Bienvenido al Panel de Control",
+            "p2":"Seleccione una opción de la lista para continuar"
+        },
+        "select": {
+            "p1":"Selecciona una opción del menú"
+        }
     },
     "error": {
         "working": "Página en progreso. Regresa pronto",
         "network": "Hubo un error inesperado con la conexión.",
-				"general": "Lo sentimos, tuvimos un problema inesperado.."
+		"general": "Lo sentimos, tuvimos un problema inesperado.."
+    },
+    "filters":
+    {
+        "since":"Desde",
+        "to":"Hasta"
+    },
+    "buttons":
+    {
+        "today":"Hoy",
+        "sell": "Vender",
+        "exportation":
+        {
+            "excel": "Exportar como Excel",
+            "pdf": "Exportar como PDF"
+        }
+    },
+    "table":
+    {
+        "gotopage":"Ir a la página",
+        "selectpage":"Selecciona una página"
     },
     "nav": {
-        "sell_button": "Vender",
         "links": {
-            "resume": "Resumen",
-            "reports": "Reportes",
-            "reports_sales_resume": "Resumen de Ventas",
-            "reports_charge_credit": "Créditos por Cobrar",
-            "reports_products": "Productos",
-            "reports_sales_register": "Registro de Ventas",
-            "reports_CPE_register": "Registro CPE SUNAT",
-            "vouchers": "Comprobantes electrónicos",
-            "vouchers_bills": "Facturas",
-            "vouchers_sales_slips": "Boleta de Venta",
-            "vouchers_credit_notes": "Notas de Crédito",
-            "vouchers_debit_notes": "Notas de Débito",
-            "vouchers_cancelation_comms": "Comunic. de Baja",
-            "sales": "Ventas Realizadas",
-            "products": "Productos",
-            "inventory": "Inventario",
-            "config": "Configuración",
-            "licence": "Licencia",
-            "logout": "Cerrar sesión"
+            "summary":
+            {
+                "text":"Resumen",
+                "links":{}
+            },
+            "reports":
+            {
+                "text":"Reportes",
+                "links":
+                {
+                    "sales_summary":
+                    {
+                        "text":"Resumen de Ventas",
+                        "links":{}
+                    },
+                    "charge_credit":
+                    {
+                        "text":"Créditos por Cobrar",
+                        "links":{}
+                    },
+                    "products":
+                    {
+                        "text":"Productos",
+                        "links":{}
+                    },
+                    "sales_register":
+                    {
+                        "text":"Registro de Ventas",
+                        "links":{}
+                    },
+                    "CPE_register":
+                    {
+                        "text":"Registro CPE SUNAT",
+                        "links":{}
+                    }
+                }
+            },
+            "vouchers":
+            {
+                "text":"Comprobantes electrónicos",
+                "links":
+                {
+                    "bills":
+                    {
+                        "text":"Facturas",
+                        "links":{}
+                    },
+                    "sales_slips":
+                    {
+                        "text":"Boleta de Venta",
+                        "links":{}
+                    },
+                    "credit_notes":
+                    {
+                        "text":"Notas de Crédito",
+                        "links":{}
+                    },
+                    "debit_notes":
+                    {
+                        "text":"Notas de Débito",
+                        "links":{}
+                    },
+                    "cancelation_comms":
+                    {
+                        "text":"Comunic. de Baja",
+                        "links":{}
+                    }
+                }
+            },
+            "realized_sales":
+            {
+                "text":"Ventas Realizadas",
+                "links":{}
+            },
+            "products":
+            {
+                "text":"Productos",
+                "links":{}
+            },
+            "inventory":
+            {
+                "text":"Inventario",
+                "links":{}
+            },
+            "config":
+            {
+                "text":"Configuración",
+                "links":{}
+            },
+            "licence":
+            {
+                "text":"Licencia",
+                "links":{}
+            },
+            "logout":
+            {
+                "text":"Cerrar sesión",
+                "links":{}
+            }
         }
     }
 }
