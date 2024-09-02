@@ -106,6 +106,48 @@
         },
         "sell_register":
         {
+            "date_selector":
+            {
+                "text":"Seleccione mes y año",
+                "month":"Mes",
+                "year":"Año"
+            },
+            "title":"Registro de Ventas del mes de ",
+            "tabs":
+            {
+                "register":
+                {
+                    "tabname":"Registro",
+                    "table":
+                    {
+                        "date":"Fecha",
+                        "tp":"TP",
+                        "serial":"Serie",
+                        "number":"Número",
+                        "ruc_dni":"RUC/DNI",
+                        "name_social":"Nombre/Razon Social",
+                        "me":"M.E.",
+                        "tc":"T/C",
+                        "sale":"V.Venta",
+                        "igv":"I.G.V",
+                        "product_sale":"P.Venta",
+                        "total":"Total General"
+                    }
+                },
+                "reference":
+                {
+                    "tabname":"Referencia del Comprobante de Pago o Documento Original Modificado",
+                    "table":
+                    {
+                        "date":"Fecha",
+                        "tp":"TP",
+                        "serial":"Serie",
+                        "number":"Número",
+                        "import_base":"Importe Base",
+                        "igv":"I.G.V"
+                    }
+                }
+            }
         },
         "sunat_register":
         {

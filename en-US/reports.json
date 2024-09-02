@@ -106,6 +106,48 @@
         },
         "sell_register":
         {
+            "date_selector":
+            {
+                "text":"Select month and year",
+                "month":"Month",
+                "year":"Year"
+            },
+            "title":"Sales Record for the month of ",
+            "tabs":
+            {
+                "register":
+                {
+                    "tabname":"Record",
+                    "table":
+                    {
+                        "date":"Date",
+                        "tp":"TP",
+                        "serial":"Serial",
+                        "number":"Number",
+                        "ruc_dni":"RUC/DNI",
+                        "name_social":"Name/Social Reason",
+                        "me":"M.E.",
+                        "tc":"T/C",
+                        "sale":"V.Sale",
+                        "igv":"I.G.V",
+                        "product_sale":"P.Sale",
+                        "total":"Grand total"
+                    }
+                },
+                "reference":
+                {
+                    "tabname":"Payment Voucher or Original Amended Document Reference",
+                    "table":
+                    {
+                        "date":"Date",
+                        "tp":"TP",
+                        "serial":"Serial",
+                        "number":"Number",
+                        "import_base":"Base Importe",
+                        "igv":"I.G.V"
+                    }
+                }
+            }
         },
         "sunat_register":
         {
