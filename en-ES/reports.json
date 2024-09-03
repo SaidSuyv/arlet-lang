@@ -151,6 +151,35 @@
         },
         "sunat_register":
         {
+            "date_selector":
+            {
+                "text":"Select month and year",
+                "month":"Month",
+                "year":"Year"
+            },
+            "title":"SUNAT CPE Registration for the month of",
+            "table":
+            {
+                "date":"Date",
+                "tp":"TP",
+                "serial":"Serial",
+                "number":"Number",
+                "ruc_dni":"RUC/DNI",
+                "name_social":"Name/Social Reason",
+                "pay_method":"Pay method",
+                "currency": "Currency",
+                "amount":"Amount",
+                "tc":"T/C",
+                "balance":"Balance (S/.)",
+                "state":"State",
+                "expiration_date":"Expiration Date",
+                "mail":"Mail",
+                "xml":"XML",
+                "cashier":"Cashier",
+                "xml_file":"XML File",
+                "sunat_response":"SUNAT Response",
+                "result":"Result"
+            }
         }
     },
     "footer":

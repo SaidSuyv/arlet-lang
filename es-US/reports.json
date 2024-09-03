@@ -151,6 +151,35 @@
         },
         "sunat_register":
         {
+            "date_selector":
+            {
+                "text":"Seleccione mes y año",
+                "month":"Mes",
+                "year":"Año"
+            },
+            "title":"Registros CPE SUNAT del mes de ",
+            "table":
+            {
+                "date":"Fecha",
+                "tp":"TP",
+                "serial":"Serie",
+                "number":"Número",
+                "ruc_dni":"RUC/DNI",
+                "name_social":"Nombre/Razon Social",
+                "pay_method":"Metodo de pago",
+                "currency": "Moneda",
+                "amount":"Importe",
+                "tc":"T/C",
+                "balance":"Saldo (S/.)",
+                "state":"Estado",
+                "expiration_date":"Fecha de vencimiento",
+                "mail":"Mail",
+                "xml":"XML",
+                "cashier":"Cajero",
+                "xml_file":"Archivo XML",
+                "sunat_response":"Respuesta SUNAT",
+                "result":"Resultado"
+            }
         }
     },
     "footer":
