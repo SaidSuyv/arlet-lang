@@ -1,0 +1,70 @@
+{
+    "pages":
+    {
+        "bills":
+        {
+            "title":"Facturas",
+            "total":"Total",
+            "search_placeholder":"Buscar por Número de Documento / Respuesta CDR",
+            "tabs":
+            {
+                "accepted":
+                {
+                    "tabname":"Aceptados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    }
+                },
+                "pending":
+                {
+                    "tabname":"Pendientes",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    }
+                },
+                "rejected":
+                {
+                    "tabname":"Rechazados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    }
+                },
+                "cancelled":
+                {
+                    "tabname":"Anulados",
+                    "table":
+                    {
+                        "doc_number":"Número de Documento",
+                        "amount":"Monto",
+                        "date":"Fecha",
+                        "cdr_response":"Respuesta CDR",
+                        "cdr_code":"Código CDR",
+                        "state":"Estado",
+                        "xml":"XML"
+                    }
+                }
+            }
+        }
+    }
+}
