@@ -6,29 +6,26 @@
             "header":
             {
                 "ruc": "RUC",
-                "sales_receipt": "Electronic Bill of Sale"
+                "sales_receipt": "ELECTRONIC BILL OF SALE"
             },
             "client":
             {
-                "name":"Customer",
-                "dni":"Document N°",
-                "address":"Tax Address",
-                "cashier":"Cashier",
-                "issue_date":"Date of issue",
-                "pay_conditions":"Payment Conditions"
+                "name":"Customer:",
+                "dni":"Document N°:",
+                "address":"Tax Address:",
+                "cashier":"Cashier:",
+                "issue_date":"Date of issue:",
+                "pay_conditions":"Payment Conditions:"
             },
             "products":
             {
-                "table":
-                {
-                    "code":"Code",
-                    "description":"Description",
-                    "unit":"Unit",
-                    "quantity":"Quantity",
-                    "unit_value":"Unit Value",
-                    "sale_value":"Sales Value",
-                    "text":"SON"
-                }
+                "code":"Code",
+                "description":"Description",
+                "unit":"Unit",
+                "quantity":"Quantity",
+                "unit_value":"Unit Value",
+                "sale_value":"Sales Value",
+                "text":"SON"
             },
             "checkout":
             {
