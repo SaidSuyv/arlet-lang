@@ -19,27 +19,21 @@
             },
             "products":
             {
-                "table":
-                {
-                    "code":"Código",
-                    "description":"Descripción",
-                    "unit":"Unidad",
-                    "quantity":"Cantidad",
-                    "unit_value":"Valor Unitario",
-                    "sale_value":"Valor Venta",
-                    "text":"SON"
-                }
+                "code":"Código",
+                "description":"Descripción",
+                "unit":"Unidad",
+                "quantity":"Cantidad",
+                "unit_value":"Valor Unitario",
+                "sale_value":"Valor Venta"
             },
             "checkout":
             {
+                "text":"SON",
                 "subtotal":"SUB TOTAL",
                 "discount":"Descuento",
                 "igv":"I.G.V",
                 "icbper":"ICBPER",
-                "total":"TOTAL"
-            },
-            "additional":
-            {
+                "total":"TOTAL",
                 "product_quantity":"Cantidad de Productos",
                 "cash":"Efectivo",
                 "change":"Vuelto",

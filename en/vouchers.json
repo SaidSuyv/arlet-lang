@@ -24,19 +24,16 @@
                 "unit":"Unit",
                 "quantity":"Quantity",
                 "unit_value":"Unit Value",
-                "sale_value":"Sales Value",
-                "text":"SON"
+                "sale_value":"Sales Value"
             },
             "checkout":
             {
+                "text":"PRICE TEXT",
                 "subtotal":"SUB TOTAL",
                 "discount":"Discount",
                 "igv":"I.G.V",
                 "icbper":"ICBPER",
-                "total":"TOTAL"
-            },
-            "additional":
-            {
+                "total":"TOTAL",
                 "product_quantity":"Quantity of products",
                 "cash":"Cash",
                 "change":"Returned",
@@ -79,7 +76,7 @@
                 "igv":"I.G.V",
                 "icbper":"ICBPER",
                 "total":"TOTAL",
-                "text":"SON"
+                "text":"PRICE TEXT"
             },
             "doc_reference":
             {
