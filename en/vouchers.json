@@ -120,7 +120,8 @@
                         "cdr_code":"CDR Code",
                         "state":"State",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"ACCEPTED INVOICE"
                 },
                 "pending":
                 {
@@ -134,7 +135,8 @@
                         "cdr_code":"CDR Code",
                         "state":"State",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"PENDING INVOICE"
                 },
                 "rejected":
                 {
@@ -148,7 +150,8 @@
                         "cdr_code":"CDR Code",
                         "state":"State",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"REJECTED INVOICE"
                 },
                 "cancelled":
                 {
@@ -162,7 +165,8 @@
                         "cdr_code":"CDR Code",
                         "state":"State",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"CANCELLED INVOICE"
                 }
             }
         }

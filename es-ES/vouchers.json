@@ -120,7 +120,8 @@
                         "cdr_code":"Código CDR",
                         "state":"Estado",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"FACTURA ACEPTADA"
                 },
                 "pending":
                 {
@@ -134,7 +135,8 @@
                         "cdr_code":"Código CDR",
                         "state":"Estado",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"FACTURA PENDIENTE"
                 },
                 "rejected":
                 {
@@ -148,7 +150,8 @@
                         "cdr_code":"Código CDR",
                         "state":"Estado",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"FACTURA RECHAZADA"
                 },
                 "cancelled":
                 {
@@ -162,7 +165,8 @@
                         "cdr_code":"Código CDR",
                         "state":"Estado",
                         "xml":"XML"
-                    }
+                    },
+                    "file_title":"FACTURA ANULADA"
                 }
             }
         }
