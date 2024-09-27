@@ -1,4 +1,104 @@
 {
+    "pdf_types":
+    {
+        "ticket":
+        {
+            "header":
+            {
+                "issue_date":"Date of issue"
+            },
+            "client":
+            {
+                "name":"Customer",
+                "dni_ruc":"DNI/RUC",
+                "address":"Address"
+            },
+            "products":
+            {
+                "table":
+                {
+                    "quantity": "QTY.",
+                    "unit":"UNIT",
+                    "product":"PRODUCT",
+                    "unit_price":"P.UNIT",
+                    "amount":"AMOUNT"
+                }
+            },
+            "checkout":
+            {
+                "subtotal":"SUB TOTAL",
+                "discount":"Discount",
+                "igv":"I.G.V",
+                "icbper":"ICBPER",
+                "total":"TOTAL",
+                "text":"PRICE TEXT"
+            },
+            "doc_reference":
+            {
+                "title":"Doc. Reference",
+                "reason":"Reason",
+                "reference":"Reference",
+                "issue_date":"Date of issue"
+            },
+            "additional":
+            {
+                "product_quantity":"Quantity of products",
+                "phone":"Phone"
+            },
+            "footer":
+            {
+                "cashier":"Cashier",
+                "address":"Tax Address",
+                "message":"The printed representation of the electronic voucher can be consulted at",
+                "thanks":"THANK YOU FOR YOUR PURCHASE"
+            }
+        },
+        "a4":
+        {
+            "header":
+            {
+                "ruc": "RUC",
+                "sales_receipt": "ELECTRONIC BILL OF SALE"
+            },
+            "client":
+            {
+                "name":"Customer:",
+                "dni":"Document N°:",
+                "address":"Tax Address:",
+                "cashier":"Cashier:",
+                "issue_date":"Date of issue:",
+                "pay_conditions":"Payment Conditions:"
+            },
+            "products":
+            {
+                "code":"Code",
+                "description":"Description",
+                "unit":"Unit",
+                "quantity":"Quantity",
+                "unit_value":"Unit Value",
+                "sale_value":"Sales Value"
+            },
+            "checkout":
+            {
+                "text":"PRICE TEXT",
+                "subtotal":"SUB TOTAL",
+                "discount":"Discount",
+                "igv":"I.G.V",
+                "icbper":"ICBPER",
+                "total":"TOTAL",
+                "product_quantity":"Quantity of products",
+                "cash":"Cash",
+                "change":"Returned",
+                "transfer":"Transfer",
+                "card":"Card",
+                "balance_payable":"Balance payable"
+            },
+            "footer":
+            {
+                "thanks":"Acknowledgment"
+            }
+        }
+    },
     "pages":
     {
         "welcome": {
