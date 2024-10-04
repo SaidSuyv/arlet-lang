@@ -58,16 +58,28 @@
             "header":
             {
                 "ruc": "RUC",
-                "sales_receipt": "ELECTRONIC BILL OF SALE"
+                "voucher_types":
+                {
+                    "bill": "Electronic Bill",
+                    "sales_slip": "Electronic Sale Slip",
+                    "credit_note": "Electronic Credit Note",
+                    "debit_note": "Electronic Debit Note"
+                }
             },
             "client":
             {
-                "name":"Customer:",
-                "dni":"Document N°:",
-                "address":"Tax Address:",
-                "cashier":"Cashier:",
-                "issue_date":"Date of issue:",
-                "pay_conditions":"Payment Conditions:"
+                "name":"Customer",
+                "document_number":"Document N°",
+                "address":"Tax Address",
+                "cashier":"Cashier",
+                "pay_conditions":"Payment Conditions",
+                "issue_date":"Issue Date",
+                "offer_validation": "Validity of the offer",
+  
+                "reference_doc": "Reference doc.",
+                "reason": "Reason",
+                "reference": "Reference",
+                "reference_issue_date": "Issue Date"
             },
             "products":
             {
@@ -80,7 +92,7 @@
             },
             "checkout":
             {
-                "text":"PRICE TEXT",
+                "price_text":"PRICE TEXT",
                 "subtotal":"SUB TOTAL",
                 "discount":"Discount",
                 "igv":"I.G.V",
@@ -94,9 +106,7 @@
                 "balance_payable":"Balance payable"
             },
             "footer":
-            {
-                "thanks":"Acknowledgment"
-            }
+            {}
         }
     },
     "pages":

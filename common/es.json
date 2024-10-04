@@ -57,16 +57,29 @@
         {
             "header":
             {
-                "ruc": "RUC"
+                "ruc": "RUC",
+                "voucher_types":
+                {
+                    "bill": "Factura Eletrónica",
+                    "sales_slip": "Boleta de Venta Electrónica",
+                    "credit_note": "Nota de crédito Electrónica",
+                    "debit_note": "Nota de débito Electrónica"
+                }
             },
             "client":
             {
                 "name":"Cliente",
-                "dni":"N° de documento",
+                "document_number":"N° de documento",
                 "address":"Domicilio Fiscal",
                 "cashier":"Cajero",
+                "pay_conditions":"Condiciones Pago",
                 "issue_date":"Fecha emisión",
-                "pay_conditions":"Condiciones Pago"
+                "offer_validation":"Validez de la oferta",
+
+                "reference_doc": "Doc. Referencia",
+                "reason": "Motivo",
+                "reference": "Referencia",
+                "reference_issue_date": "Fecha emisión"
             },
             "products":
             {
@@ -79,7 +92,7 @@
             },
             "checkout":
             {
-                "text":"SON",
+                "price_text":"SON",
                 "subtotal":"SUB TOTAL",
                 "discount":"Descuento",
                 "igv":"I.G.V",
@@ -93,9 +106,7 @@
                 "balance_payable":"Saldo por pagar"
             },
             "footer":
-            {
-                "thanks":"Agradecimiento"
-            }
+            {}
         }
     },
     "pages":
