@@ -1,0 +1,30 @@
+{
+    "info":
+    {
+        "quantity":"Cantidad de productos",
+        "inventory_cost": "Coste de Inventario"
+    },
+    "buttons":
+    {
+        "new_product": "Nuevo Producto",
+        "delete": "Eliminar",
+        "edit": "Editar"
+    },
+    "filter":
+    {
+        "search": "Buscar por código / descripción",
+        "rows": "Filas"
+    },
+    "table":
+    {
+        "code": "Código",
+        "description": "Descripción",
+        "tax":"Impuesto",
+        "p_buy":"P. Compra",
+        "p_wholesale":"P. por Mayor",
+        "min_stock":"Stock Min",
+        "expiration":"Vencimiento",
+        "stock": "Stock",
+        "p_sale": "P. Venta"
+    }
+}

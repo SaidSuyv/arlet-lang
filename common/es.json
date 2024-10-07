@@ -137,7 +137,13 @@
         {
             "excel": "Exportar como Excel",
             "pdf": "Exportar como PDF"
-        }
+        },
+        "importation":
+        {
+            "excel": "Importar desde Excel"
+        },
+        "delete": "Eliminar",
+        "cancel": "Cancelar"
     },
     "table":
     {

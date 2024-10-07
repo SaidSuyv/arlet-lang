@@ -1,0 +1,30 @@
+{
+    "info":
+    {
+        "quantity":"Products quantity",
+        "inventory_cost": "Inventory cost"
+    },
+    "buttons":
+    {
+        "new_product": "New Product",
+        "delete": "Delete",
+        "edit": "Edit"
+    },
+    "filter":
+    {
+        "search": "Search by code / product name",
+        "rows": "Rows"
+    },
+    "table":
+    {
+        "code": "Code",
+        "description": "Description",
+        "tax":"Tax",
+        "p_buy":"P. Buy",
+        "p_wholesale":"P. by Wholesale",
+        "min_stock":"Min Stock",
+        "expiration":"Expiration",
+        "stock": "Stock",
+        "p_sale": "P. Sale"
+    }
+}
