@@ -26,5 +26,22 @@
         "expiration":"Vencimiento",
         "stock": "Stock",
         "p_sale": "P. Venta"
+    },
+    "modal":
+    {
+        "delete":
+        {
+            "prompt":"¿Estas seguro de eliminar {id_code}?"
+        },
+        "edit":
+        {
+            "title": "Editar Información de Producto",
+            "item_code": "Código de Item",
+            "buttons":
+            {
+                "save":"Guardar",
+                "cancel":"Cancelar"
+            }
+        }
     }
 }

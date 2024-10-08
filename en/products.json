@@ -26,5 +26,22 @@
         "expiration":"Expiration",
         "stock": "Stock",
         "p_sale": "P. Sale"
+    },
+    "modal":
+    {
+        "delete":
+        {
+            "prompt":"Are you sure to delete {id_code}?"
+        },
+        "edit":
+        {
+            "title": "Edit Product Information",
+            "item_code": "Item Code",
+            "buttons":
+            {
+                "save":"Save",
+                "cancel":"Cancel"
+            }
+        }
     }
 }
