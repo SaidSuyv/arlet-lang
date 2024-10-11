@@ -29,6 +29,26 @@
     },
     "modal":
     {
+        "view":
+        {
+            "text":
+            {
+                "title":"Product Information",
+                "code": "Item Code",
+                "description": "Description",
+                "tax":"Tax",
+                "p_buy":"P. Buy",
+                "p_wholesale":"P. by Wholesale",
+                "min_stock":"Min Stock",
+                "expiration":"Expiration",
+                "stock": "Stock",
+                "p_sale": "P. Sale"
+            },
+            "buttons":
+            {
+                "close":"Close"
+            }
+        },
         "delete":
         {
             "prompt":"Are you sure to delete {id_code}?"
