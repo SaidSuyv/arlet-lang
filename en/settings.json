@@ -1,0 +1,43 @@
+{
+    "buttons":
+    {
+        "see_as_list": "See as List",
+        "see_as_icon": "See as Icon"
+    },
+    "sections":
+    {
+        "actors":
+        {
+            "title":"Actors",
+            "options":
+            {
+                "users":"Users",
+                "providers": "Providers",
+                "clients": "Clients"
+            }
+        },
+        "business":
+        {
+            "title":"Business",
+            "options":
+            {
+                "business":"Business",
+                "cash_register": "Cash Register",
+                "serialization": "Serialization",
+                "send_reports": "Send Reports"
+            }
+        },
+        "customization":
+        {
+            "title":"Customization",
+            "options":
+            {
+                "voucher_design": "Voucher Design",
+                "notifications": "Notifications",
+                "printers": "Printers",
+                "ftp" : "FTP",
+                "language": "Language"
+            }
+        }
+    }
+}

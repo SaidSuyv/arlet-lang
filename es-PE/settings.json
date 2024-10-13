@@ -1,0 +1,43 @@
+{
+    "buttons":
+    {
+        "see_as_list": "Ver como lista",
+        "see_as_icon": "Ver como icono"
+    },
+    "sections":
+    {
+        "actors":
+        {
+            "title":"Actores",
+            "options":
+            {
+                "users":"Usuarios",
+                "providers": "Proveedores",
+                "clients": "Clientes"
+            }
+        },
+        "business":
+        {
+            "title":"Negocio",
+            "options":
+            {
+                "business":"Empresa",
+                "cash_register": "Cajas",
+                "serialization": "Serialización",
+                "send_reports": "Enviar Reportes"
+            }
+        },
+        "customization":
+        {
+            "title":"Personalización",
+            "options":
+            {
+                "voucher_design": "Diseño de Comprobantes",
+                "notifications": "Notificaciones",
+                "printers": "Impresoras",
+                "ftp" : "FTP",
+                "language": "Idioma"
+            }
+        }
+    }
+}
