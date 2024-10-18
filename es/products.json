@@ -126,6 +126,10 @@
                         "granel":"Granel"
                     }
                 },
+                "description":
+                {
+                    "label":"Descripción"
+                },
                 "cost_price":
                 {
                     "label":"Precio Costo",

@@ -126,6 +126,10 @@
                         "granel":"Granel"
                     }
                 },
+                "description":
+                {
+                    "label":"Description"
+                },
                 "cost_price":
                 {
                     "label":"Cost Price",
@@ -211,6 +215,7 @@
                     "label":"Upload image"
                 }
             }
+            
         }
     }
 }
