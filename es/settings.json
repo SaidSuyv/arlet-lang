@@ -1,42 +1,87 @@
 {
-    "buttons":
+    "pages":
     {
-        "see_as_list": "Ver como lista",
-        "see_as_icon": "Ver como icono"
-    },
-    "sections":
-    {
-        "actors":
+        "index":
         {
-            "title":"Actores",
-            "options":
+            "buttons":
             {
-                "users":"Usuarios",
-                "providers": "Proveedores",
-                "clients": "Clientes"
+                "see_as_list": "Ver como lista",
+                "see_as_icon": "Ver como icono"
+            },
+            "sections":
+            {
+                "actors":
+                {
+                    "title":"Actores",
+                    "options":
+                    {
+                        "users":"Usuarios",
+                        "providers": "Proveedores",
+                        "clients": "Clientes"
+                    }
+                },
+                "business":
+                {
+                    "title":"Negocio",
+                    "options":
+                    {
+                        "business":"Empresa",
+                        "cash_register": "Cajas",
+                        "serialization": "Serialización",
+                        "send_reports": "Enviar Reportes"
+                    }
+                },
+                "customization":
+                {
+                    "title":"Personalización",
+                    "options":
+                    {
+                        "voucher_design": "Diseño de Comprobantes",
+                        "notifications": "Notificaciones",
+                        "printers": "Impresoras",
+                        "ftp" : "FTP",
+                        "language": "Idioma"
+                    }
+                }
             }
         },
-        "business":
+        "users":
         {
-            "title":"Negocio",
-            "options":
+            "buttons":
             {
-                "business":"Empresa",
-                "cash_register": "Cajas",
-                "serialization": "Serialización",
-                "send_reports": "Enviar Reportes"
-            }
-        },
-        "customization":
-        {
-            "title":"Personalización",
-            "options":
+                "back": "Usuarios",
+                "new": "Nuevo usuario"
+            },
+            "info":
             {
-                "voucher_design": "Diseño de Comprobantes",
-                "notifications": "Notificaciones",
-                "printers": "Impresoras",
-                "ftp" : "FTP",
-                "language": "Idioma"
+                "active": "Usuarios activos",
+                "deleted": "Usuarios eliminados"
+            },
+            "tabs":
+            {
+                "active": "Usuarios activos",
+                "deleted": "Usuarios eliminados"
+            },
+            "table":
+            {
+                "header":
+                {
+                    "name": "Nombres",
+                    "lastName": "Apellidos",
+                    "username": "Nombre de usuario",
+                    "email": "Correo electronico",
+                    "role": "Rol"
+                },
+                "selection":
+                {
+                    "buttons":
+                    {
+                        "archive": "Archivar",
+                        "edit": "Editar",
+                        "restore": "Restaurar"
+                    },
+                    "selected": "Usuarios seleccionado(s)"
+                }
             }
         }
     }
