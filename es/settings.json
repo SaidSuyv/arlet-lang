@@ -55,12 +55,12 @@
             "info":
             {
                 "active": "Usuarios activos",
-                "deleted": "Usuarios eliminados"
+                "archived": "Usuarios archivados"
             },
             "tabs":
             {
                 "active": "Usuarios activos",
-                "deleted": "Usuarios eliminados"
+                "archived": "Usuarios archivados"
             },
             "table":
             {
