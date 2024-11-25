@@ -82,6 +82,33 @@
                     },
                     "selected": "Usuarios seleccionado(s)"
                 }
+            },
+            "modal":
+            {
+                "new_user":
+                {
+                    "title": "Nuevo usuario",
+                    "img":
+                    {
+                        "add": "Agregar imagen",
+                        "label": "La imagen no puede exceder los 3MB"
+                    },
+                    "inputs":
+                    {
+                        "name": "Nombres",
+                        "lastname": "Apellidos",
+                        "username": "Nombre de usuario",
+                        "password": "Contraseña",
+                        "email": "Correo electrónico",
+                        "role": "Rol",
+                        "keep_adding": "Seguir agregando usuarios"
+                    },
+                    "buttons":
+                    {
+                        "cancel": "Cancelar",
+                        "create": "Crear nuevo usuario"
+                    }
+                }
             }
         }
     }
