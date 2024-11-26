@@ -133,10 +133,11 @@
                 "header":
                 {
                     "name": "Nombres",
-                    "lastName": "Apellidos",
-                    "username": "Nombre de usuario",
+                    "address": "Direccion",
                     "email": "Correo electronico",
-                    "role": "Rol"
+                    "docnum": "Nro. de Documento",
+                    "phone": "Telefono",
+                    "balance": "Saldo"
                 },
                 "selection":
                 {
@@ -154,19 +155,14 @@
                 "new_user":
                 {
                     "title": "Nuevo cliente",
-                    "img":
-                    {
-                        "add": "Agregar imagen",
-                        "label": "La imagen no puede exceder los 3MB"
-                    },
                     "inputs":
                     {
                         "name": "Nombres",
-                        "lastname": "Apellidos",
-                        "username": "Nombre de usuario",
-                        "password": "Contraseña",
+                        "phone": "Telefono",
+                        "address": "Direccion",
                         "email": "Correo electrónico",
-                        "role": "Rol",
+                        "doctype": "Tipo de documento",
+                        "docnum": "Nro. de Documento",
                         "keep_adding": "Seguir agregando clientes"
                     },
                     "buttons":
