@@ -172,6 +172,139 @@
                     }
                 }
             }
+        },
+        "company":
+        {
+            "buttons":
+            {
+                "back": "Empresa",
+                "update": "Actualizar"
+            },
+            "sections":
+            {
+                "basic": 
+                {
+                    "title": "Básico",
+                    "img":
+                    {
+                        "label": "Arrastra o busca una imagen haciendo clic"
+                    },
+                    "inputs":
+                    {
+                        "comercial_name": "Nombre comercial",
+                        "tax_type": "Tipo de Impuesto",
+                        "igv":"I.G.V"
+                    }
+                },
+                "advanced":
+                {
+                    "title": "Avanzado",
+                    "inputs":
+                    {
+                        "currency_per_country":
+                        {
+                            "label": "Moneda por país",
+                            "name": "Nombre"
+                        },
+                        "ubication": 
+                        {
+                            "label": "Ubicación",
+                            "placeholder": "Departamento/Provincia/Distrito",
+                            "department": "Departamento",
+                            "province": "Provincia",
+                            "district": "Distrito",
+                            "ubigeo": "Ubigeo"
+                        },
+                        "fiscal_address":
+                        {
+                            "label": "Dirección fiscal"
+                        },
+                        "annex_facility": 
+                        {
+                            "label": "Establecimiento Anexo"
+                        },
+                        "email":
+                        {
+                            "label": "Correo electrónico"
+                        }
+                    }
+                },
+                "digital_voucher":
+                {
+                    "inputs":
+                    {
+                        "connect": "Conectar a SUNAT para Facturación Electrónica",
+                        "company_name": "Razón social",
+                        "ruc": "Nro. RUC",
+                        "certified": "Certificado",
+                        "certification_password": "Contraseña Certificado",
+                        "secondary_sunat_user": "Usuario Secundario SUNAT",
+                        "secondary_sunat_password": "Contraseña Usuario Secundario SUNAT",
+                        "sunat_server": "Servidor SUNAT",
+                        "consultation_website": "Página WEB Consultas"
+                    }
+                }
+            }
+        },
+        "serialization":
+        {
+            "inputs":
+            {
+                "search_placeholder":"Serie completa"
+            },
+            "buttons":
+            {
+                "back": "Serialización",
+                "add_new": "Agregar Serialización"
+            },
+            "table":
+            {
+                "header":
+                {
+                    "serial": "Serie completa",
+                    "voucher": "Comprobante",
+                    "default": "Predeterminado",
+                    "automatic_send": "Envío automático",
+                    "state": "Estado"
+                }
+            },
+            "modal":
+            {
+                "add_new":
+                {
+                    "title": "Agregar nueva Serialización",
+                    "inputs":
+                    {
+                        "voucher_type":{"label": "Seleccionar el Tipo Comprobante Documento"},
+                        "voucher":{"label": "Comprobante"},
+                        "serial":{"label":"Serie"},
+                        "amount_serial_digits":{"label":"Cantidad de dígitos Serie"},
+                        "correlative_serial":{"label":"Serie correlativo"},
+                        "amount_serial_numeration":{"label":"Cantidad de dígitos Numeración"},
+                        "correlative":{"label":"Correlativo"},
+                        "doc_reference":{"label":"Doc. Referencia"},
+                        "keep_adding":{"label":"Seguir agregando series"}
+                    },
+                    "buttons":
+                    {
+                        "preview": "Vista previa"
+                    }
+                }
+            }
+        },
+        "send_reports":
+        {
+            "inputs":
+            {
+                "destiny_name": "Nombre de destino",
+                "destiny_email": "Correo de destino",
+                "action": "Accion"
+            },
+            "buttons":
+            {
+                "back": "Enviar Reportes",
+                "save": "Guardar"
+            }
         }
     }
 }
