@@ -231,12 +231,13 @@
                 },
                 "digital_voucher":
                 {
+                    "title": "Facturación Electrónica",
                     "inputs":
                     {
                         "connect": "Conectar a SUNAT para Facturación Electrónica",
                         "company_name": "Razón social",
                         "ruc": "Nro. RUC",
-                        "certified": "Certificado",
+                        "certification": "Certificado",
                         "certification_password": "Contraseña Certificado",
                         "secondary_sunat_user": "Usuario Secundario SUNAT",
                         "secondary_sunat_password": "Contraseña Usuario Secundario SUNAT",
