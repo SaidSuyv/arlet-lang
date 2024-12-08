@@ -5,7 +5,8 @@
         {
             "header":
             {
-                "issue_date":"Fecha emisión"
+                "issue_date":"Fecha emisión",
+                "validation_offer": "Validez de oferta"
             },
             "client":
             {
@@ -31,7 +32,13 @@
                 "igv":"I.G.V",
                 "icbper":"ICBPER",
                 "total":"TOTAL",
-                "text":"SON"
+                "text":"SON",
+                "cash": "Efectivo",
+                "change": "Vuelto",
+                "transfer": "Transferencia",
+                "card": "Tarjeta",
+                "paymethod": "Forma de pago",
+                "balance_payable": "Saldo por pagar"
             },
             "doc_reference":
             {
@@ -143,7 +150,9 @@
             "excel": "Importar desde Excel"
         },
         "delete": "Eliminar",
-        "cancel": "Cancelar"
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "update": "Actualizar"
     },
     "table":
     {

@@ -306,6 +306,98 @@
                 "back": "Enviar Reportes",
                 "save": "Guardar"
             }
+        },
+        "voucher_design":
+        {
+            "buttons":
+            {
+                "back":"Diseño de Comprobantes",
+                "save": "Guardar"
+            },
+            "inputs":
+            {
+                "ruc_identifier":"RUC identificador fiscal de la empresa",
+                "address":"Direccion de la empresa",
+                "province": "Provincia",
+                "department": "Departamento",
+                "country": "País",
+                "webpage": "Página Web",
+                "phone_contact": "Número telefónico de contacto",
+                "currency": "Moneda",
+                "greetings": "Agradecimiento",
+                "ad_marketing": "Anuncio - Marketing",
+                "additional_data": "Datos fiscales - Número de autorización - Resolucion"
+            },
+            "tabs":
+            {
+                "a4_design":
+                {
+                    "tabname":"Diseño A4",
+                    "inputs":
+                    {
+                        "ruc_identifier":"RUC identificador fiscal de la empresa",
+                        "address":"Direccion de la empresa",
+                        "province": "Provincia",
+                        "department": "Departamento",
+                        "country": "País",
+                        "webpage": "Página Web",
+                        "phone_contact": "Número telefónico de contacto",
+                        "currency": "Moneda",
+                        "greetings": "Agradecimiento",
+                        "ad_marketing": "Anuncio - Marketing",
+                        "additional_data": "Datos fiscales - Número de autorización - Resolucion"
+                    }
+                },
+                "ticket_design":
+                {
+                    "tabname":"Diseño 80mm",
+                    "inputs":
+                    {
+                        "ruc_identifier":"RUC identificador fiscal de la empresa",
+                        "address":"Direccion de la empresa",
+                        "province": "Provincia",
+                        "department": "Departamento",
+                        "country": "País",
+                        "webpage": "Página Web",
+                        "phone_contact": "Número telefónico de contacto",
+                        "currency": "Moneda",
+                        "greetings": "Agradecimiento",
+                        "ad_marketing": "Anuncio - Marketing",
+                        "additional_data": "Datos fiscales - Número de autorización - Resolucion"
+                    }
+                }
+            }
+        },
+        "notifications":
+        {
+            "title": "E-MAIL Sistema",
+            "buttons":
+            {
+                "back":"Notificaciones",
+                "save": "Guardar"
+            },
+            "inputs":
+            {
+                "name": "Nombre",
+                "email":"Correo electronico",
+                "password":"Contraseña",
+                "host": "Host",
+                "port": "Puerto"
+            }
+        },
+        "ftp": 
+        {
+            "buttons": 
+            {
+                "back": "FTP",
+                "save": "Guardar"
+            },
+            "inputs": 
+            {
+                "server": "Servidor FTP",
+                "user": "Usuario",
+                "password": "Contraseña"
+            }
         }
     }
 }
