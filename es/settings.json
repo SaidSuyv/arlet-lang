@@ -284,11 +284,22 @@
                         "amount_serial_numeration":{"label":"Cantidad de dígitos Numeración"},
                         "correlative":{"label":"Correlativo"},
                         "doc_reference":{"label":"Doc. Referencia"},
-                        "keep_adding":{"label":"Seguir agregando series"}
+                        "states":
+                        {
+                            "title": "Estados",
+                            "checkbox":
+                            {
+                                "send": "Enviar",
+                                "auto_send": "Enviar automáticamente",
+                                "default": "Establecer como predeterminado",
+                                "keep_adding": "Seguir agregando series"
+                            }
+                        }
                     },
                     "buttons":
                     {
-                        "preview": "Vista previa"
+                        "cancel": "Cancelar",
+                        "create": "Crear serialización"
                     }
                 }
             }
