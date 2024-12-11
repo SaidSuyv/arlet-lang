@@ -5,7 +5,8 @@
         {
             "header":
             {
-                "issue_date":"Date of issue"
+                "issue_date":"Date of issue",
+                "validation_offer": "Validation Offer"
             },
             "client":
             {
@@ -31,7 +32,13 @@
                 "igv":"I.G.V",
                 "icbper":"ICBPER",
                 "total":"TOTAL",
-                "text":"PRICE TEXT"
+                "text":"PRICE TEXT",
+                "cash": "Cash",
+                "change": "Change",
+                "transfer": "Transfer",
+                "card": "Card",
+                "paymethod": "Pay method",
+                "balance_payable": "Balance payable"
             },
             "doc_reference":
             {
