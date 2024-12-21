@@ -409,6 +409,18 @@
                 "user": "Usuario",
                 "password": "Contraseña"
             }
+        },
+        "language":
+        {
+            "buttons":
+            {
+                "save":"Guardar",
+                "back": "Idiomas"
+            },
+            "inputs":
+            {
+                "select":"Selecciona un idioma"
+            }
         }
     }
 }
