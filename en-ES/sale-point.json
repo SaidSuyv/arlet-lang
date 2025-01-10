@@ -1,0 +1,48 @@
+{
+  "common":
+  {
+    "button":
+    {
+      "charge":"Cobrar",
+      "cancel_sale":"Eliminar venta"
+    },
+    "payment_area":
+    {
+      "total":"Total",
+      "discount":"Desc.",
+      "subtotal":"Sub-total",
+      "igv":"I.G.V",
+      "icbper":"ICBPER"
+    },
+    "menu":
+    {
+      "end_turn":"Cerrar turno",
+      "sales_made":"Ventas Realizadas",
+      "credit_notes":"Notas de Crédito",
+      "debit_notes":"Notas de Débito",
+      "cancel_voucher":"Anular Comprob.",
+      "products":"Productos",
+      "product_income":"Entrada de Producto",
+      "product_outcome":"Salida de Producto"
+    }
+  },
+  "pages":
+  {
+    "index":
+    {
+      "inputs":
+      {
+        "search": "Busqueda por teclado"
+      },
+      "empty_page":"Busque un producto para empezar",
+      "item":
+      {
+        "code":"Código",
+        "p_unit":"P. Unitario",
+        "import":"Importe",
+        "unit":"Unid.",
+        "stock":"Stock"
+      }
+    }
+  }
+}
