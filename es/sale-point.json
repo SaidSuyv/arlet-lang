@@ -43,6 +43,61 @@
         "unit":"Unid.",
         "stock":"Stock"
       }
+    },
+    "charge":
+    {
+      "buttons":
+      {
+        "back":"Regresar a Venta",
+        "cancel":"Cancelar venta"
+      },
+      "inputs":
+      {
+        "cash":"Efectivo",
+        "card":"Tarjeta",
+        "transfer":"Transferencia",
+        "credit":"Crédito",
+        "change":"Vuelto",
+        "remaining":"Restante"
+      },
+      "fees":
+      {
+        "title":"Dividir en cuotas",
+        "buttons":
+        {
+          "edit":"Editar cuotas",
+          "cancel":"Cancelar",
+          "accept":"Aceptar"
+        },
+        "total":"Total",
+        "fees":"Cuotas",
+        "fee":"Cuota",
+        "expiration":"Vencimiento",
+        "import":"Importe",
+        "import_per_fee":"Importe por cuota",
+        "fee_count":"Nro Coutas",
+        "expiration_date":"Fecha de vencimiento",
+        "remaining":"Restante"
+      },
+      "details":
+      {
+        "buttons":
+        {
+          "invoice":"Factura",
+          "sale_slip":"Boleta de venta",
+          "finalize":"Finalizar venta"
+        },
+        "inputs":
+        {
+          "select_a_client":"Seleccione un cliente"
+        },
+        "client_information":"Información del cliente",
+        "location":"Ubicación",
+        "phone":"Teléfono",
+        "email":"Correo electrónico",
+        "ruc_dni":"RUC / DNI",
+        "select_to_visualize":"Seleccione para visualizar"
+      }
     }
   }
 }
