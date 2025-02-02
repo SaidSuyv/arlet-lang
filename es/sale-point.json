@@ -12,11 +12,12 @@
       "discount":"Desc.",
       "subtotal":"Sub-total",
       "igv":"I.G.V",
-      "icbper":"ICBPER"
+      "icbper":"ICBPER",
+      "discount_text": "Descuento"
     },
     "menu":
     {
-      "end_turn":"Cerrar turno",
+      "close_turn":"Cerrar turno",
       "sales_made":"Ventas Realizadas",
       "credit_notes":"Notas de Crédito",
       "debit_notes":"Notas de Débito",
@@ -24,6 +25,10 @@
       "products":"Productos",
       "product_income":"Entrada de Producto",
       "product_outcome":"Salida de Producto"
+    },
+    "notifications":
+    {
+      "title":"Notificaciones"
     }
   },
   "pages":
@@ -34,6 +39,7 @@
       {
         "search": "Busqueda por teclado"
       },
+      "empty_search": "No hay coincidencias",
       "empty_page":"Busque un producto para empezar",
       "item":
       {

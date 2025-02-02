@@ -9,14 +9,15 @@
     "payment_area":
     {
       "total":"Total",
-      "discount":"Desc.",
+      "discount":"Disc.",
       "subtotal":"Sub-total",
       "igv":"I.G.V",
-      "icbper":"ICBPER"
+      "icbper":"ICBPER",
+      "discount_text": "Discount"
     },
     "menu":
     {
-      "end_turn":"Cerrar turno",
+      "close_turn":"Cerrar turno",
       "sales_made":"Ventas Realizadas",
       "credit_notes":"Notas de Crédito",
       "debit_notes":"Notas de Débito",
@@ -24,6 +25,10 @@
       "products":"Productos",
       "product_income":"Entrada de Producto",
       "product_outcome":"Salida de Producto"
+    },
+    "notifications":
+    {
+      "title":"Notifications"
     }
   },
   "pages":
