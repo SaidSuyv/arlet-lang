@@ -55,7 +55,8 @@
       "buttons":
       {
         "back":"Regresar a Venta",
-        "cancel":"Cancelar venta"
+        "cancel":"Cancelar venta",
+        "finalize": "Finalizar Venta"
       },
       "inputs":
       {
@@ -72,8 +73,7 @@
         "buttons":
         {
           "edit":"Editar cuotas",
-          "cancel":"Cancelar",
-          "accept":"Aceptar"
+          "close":"Cerrar"
         },
         "total":"Total",
         "fees":"Cuotas",
@@ -90,8 +90,7 @@
         "buttons":
         {
           "invoice":"Factura",
-          "sale_slip":"Boleta de venta",
-          "finalize":"Finalizar venta"
+          "sale_slip":"Boleta de venta"
         },
         "inputs":
         {

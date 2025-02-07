@@ -3,8 +3,8 @@
   {
     "button":
     {
-      "charge":"Cobrar",
-      "cancel_sale":"Eliminar venta"
+      "charge":"Charge",
+      "cancel_sale":"Cancel Sale"
     },
     "payment_area":
     {
@@ -17,14 +17,14 @@
     },
     "menu":
     {
-      "close_turn":"Cerrar turno",
-      "sales_made":"Ventas Realizadas",
-      "credit_notes":"Notas de Crédito",
-      "debit_notes":"Notas de Débito",
-      "cancel_voucher":"Anular Comprob.",
-      "products":"Productos",
-      "product_income":"Entrada de Producto",
-      "product_outcome":"Salida de Producto"
+      "close_turn":"Close turn",
+      "sales_made":"Sale Made",
+      "credit_notes":"Credit Notes",
+      "debit_notes":"Debit Notes",
+      "cancel_voucher":"Cancel Voucher",
+      "products":"Products",
+      "product_income":"Product Income",
+      "product_outcome":"Product Outcome"
     },
     "notifications":
     {
@@ -37,15 +37,16 @@
     {
       "inputs":
       {
-        "search": "Busqueda por teclado"
+        "search": "Search by keyboard"
       },
-      "empty_page":"Busque un producto para empezar",
+      "empty_search": "There are no coincidences",
+      "empty_page":"Search for a product to begin",
       "item":
       {
-        "code":"Código",
-        "p_unit":"P. Unitario",
-        "import":"Importe",
-        "unit":"Unid.",
+        "code":"Code",
+        "p_unit":"Unit P.",
+        "import":"Import",
+        "unit":"Unit.",
         "stock":"Stock"
       }
     },
@@ -53,8 +54,9 @@
     {
       "buttons":
       {
-        "back":"Back to Sale",
-        "cancel":"Cancel sale"
+        "back":"Get back",
+        "cancel":"Cancel Sale",
+        "finalize": "Finalize Sale"
       },
       "inputs":
       {
@@ -67,12 +69,11 @@
       },
       "fees":
       {
-        "title":"Divide fees",
+        "title":"Divide by fees",
         "buttons":
         {
           "edit":"Edit fees",
-          "cancel":"Cancel",
-          "accept":"Accept"
+          "close":"Close"
         },
         "total":"Total",
         "fees":"Fees",
@@ -80,7 +81,7 @@
         "expiration":"Expiration",
         "import":"Import",
         "import_per_fee":"Import per fee",
-        "fee_count":"Fees count",
+        "fee_count":"Fee n°",
         "expiration_date":"Expiration date",
         "remaining":"Remaining"
       },
@@ -89,19 +90,18 @@
         "buttons":
         {
           "invoice":"Invoice",
-          "sale_slip":"Sales Slip",
-          "finalize":"Finalize sale"
+          "sale_slip":"Sale Slip"
         },
         "inputs":
         {
           "select_a_client":"Select a client"
         },
-        "client_information":"Client information",
+        "client_information":"Client Information",
         "location":"Location",
         "phone":"Phone",
         "email":"Email",
         "ruc_dni":"RUC / DNI",
-        "select_to_visualize":"Select for visualizing"
+        "select_to_visualize":"Select to visualize"
       }
     }
   }

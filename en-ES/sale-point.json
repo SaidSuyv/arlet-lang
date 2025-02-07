@@ -3,27 +3,32 @@
   {
     "button":
     {
-      "charge":"Cobrar",
-      "cancel_sale":"Eliminar venta"
+      "charge":"Charge",
+      "cancel_sale":"Cancel Sale"
     },
     "payment_area":
     {
       "total":"Total",
-      "discount":"Desc.",
+      "discount":"Disc.",
       "subtotal":"Sub-total",
       "igv":"I.G.V",
-      "icbper":"ICBPER"
+      "icbper":"ICBPER",
+      "discount_text": "Discount"
     },
     "menu":
     {
-      "end_turn":"Cerrar turno",
-      "sales_made":"Ventas Realizadas",
-      "credit_notes":"Notas de Crédito",
-      "debit_notes":"Notas de Débito",
-      "cancel_voucher":"Anular Comprob.",
-      "products":"Productos",
-      "product_income":"Entrada de Producto",
-      "product_outcome":"Salida de Producto"
+      "close_turn":"Close turn",
+      "sales_made":"Sale Made",
+      "credit_notes":"Credit Notes",
+      "debit_notes":"Debit Notes",
+      "cancel_voucher":"Cancel Voucher",
+      "products":"Products",
+      "product_income":"Product Income",
+      "product_outcome":"Product Outcome"
+    },
+    "notifications":
+    {
+      "title":"Notifications"
     }
   },
   "pages":
@@ -32,16 +37,71 @@
     {
       "inputs":
       {
-        "search": "Busqueda por teclado"
+        "search": "Search by keyboard"
       },
-      "empty_page":"Busque un producto para empezar",
+      "empty_search": "There are no coincidences",
+      "empty_page":"Search for a product to begin",
       "item":
       {
-        "code":"Código",
-        "p_unit":"P. Unitario",
-        "import":"Importe",
-        "unit":"Unid.",
+        "code":"Code",
+        "p_unit":"Unit P.",
+        "import":"Import",
+        "unit":"Unit.",
         "stock":"Stock"
+      }
+    },
+    "charge":
+    {
+      "buttons":
+      {
+        "back":"Get back",
+        "cancel":"Cancel Sale",
+        "finalize": "Finalize Sale"
+      },
+      "inputs":
+      {
+        "cash":"Cash",
+        "card":"Card",
+        "transfer":"Transfer",
+        "credit":"Credit",
+        "change":"Change",
+        "remaining":"Remaining"
+      },
+      "fees":
+      {
+        "title":"Divide by fees",
+        "buttons":
+        {
+          "edit":"Edit fees",
+          "close":"Close"
+        },
+        "total":"Total",
+        "fees":"Fees",
+        "fee":"Fee",
+        "expiration":"Expiration",
+        "import":"Import",
+        "import_per_fee":"Import per fee",
+        "fee_count":"Fee n°",
+        "expiration_date":"Expiration date",
+        "remaining":"Remaining"
+      },
+      "details":
+      {
+        "buttons":
+        {
+          "invoice":"Invoice",
+          "sale_slip":"Sale Slip"
+        },
+        "inputs":
+        {
+          "select_a_client":"Select a client"
+        },
+        "client_information":"Client Information",
+        "location":"Location",
+        "phone":"Phone",
+        "email":"Email",
+        "ruc_dni":"RUC / DNI",
+        "select_to_visualize":"Select to visualize"
       }
     }
   }
