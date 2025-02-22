@@ -1,1 +1,7 @@
 Header set Access-Control-Allow-Origin *
+
+<FilesMatch "\.json$">
+    Header set Content-Type "application/json"
+</FilesMatch>
+
+AddType application/json .json

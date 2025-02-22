@@ -1,120 +1,38 @@
 {
-    "pdf_types":
+    "pdf_values":
     {
-        "ticket":
-        {
-            "header":
-            {
-                "issue_date":"Fecha emisión",
-                "validation_offer": "Validez de oferta"
-            },
-            "client":
-            {
-                "name":"Cliente",
-                "dni_ruc":"DNI/RUC",
-                "address":"Dirección"
-            },
-            "products":
-            {
-                "table":
-                {
-                    "quantity": "CANT.",
-                    "unit":"UNID.",
-                    "product":"PRODUCTO",
-                    "unit_price":"P.UNIT",
-                    "amount":"IMPORTE"
-                }
-            },
-            "checkout":
-            {
-                "subtotal":"SUB TOTAL",
-                "discount":"Descuento",
-                "igv":"I.G.V",
-                "icbper":"ICBPER",
-                "total":"TOTAL",
-                "text":"SON",
-                "cash": "Efectivo",
-                "change": "Vuelto",
-                "transfer": "Transferencia",
-                "card": "Tarjeta",
-                "paymethod": "Forma de pago",
-                "balance_payable": "Saldo por pagar"
-            },
-            "doc_reference":
-            {
-                "title":"Doc. Referencia",
-                "reason":"Motivo",
-                "reference":"Referencia",
-                "issue_date":"Fecha emisión"
-            },
-            "additional":
-            {
-                "product_quantity":"Cantidad de Productos",
-                "phone":"Teléfono"
-            },
-            "footer":
-            {
-                "cashier":"Caja",
-                "address":"Domicilio Fiscal",
-                "message":"La representación impresa del comprobante electrónico puede ser consultado en",
-                "thanks":"GRACIAS POR SU COMPRA"
-            }
-        },
-        "a4":
-        {
-            "header":
-            {
-                "ruc": "RUC",
-                "voucher_types":
-                {
-                    "bill": "Factura Eletrónica",
-                    "sales_slip": "Boleta de Venta Electrónica",
-                    "credit_note": "Nota de crédito Electrónica",
-                    "debit_note": "Nota de débito Electrónica"
-                }
-            },
-            "client":
-            {
-                "name":"Cliente",
-                "document_number":"N° de documento",
-                "address":"Domicilio Fiscal",
-                "cashier":"Cajero",
-                "pay_conditions":"Condiciones Pago",
-                "issue_date":"Fecha emisión",
-                "offer_validation":"Validez de la oferta",
+        "client_name": "Cliente",
+        "client_doc_num": "N° de documento",
+        "client_address": "Domicilio Fiscal",
 
-                "reference_doc": "Doc. Referencia",
-                "reason": "Motivo",
-                "reference": "Referencia",
-                "reference_issue_date": "Fecha emisión"
-            },
-            "products":
-            {
-                "code":"Código",
-                "description":"Descripción",
-                "unit":"Unidad",
-                "quantity":"Cantidad",
-                "unit_value":"Valor Unitario",
-                "sale_value":"Valor Venta"
-            },
-            "checkout":
-            {
-                "price_text":"SON",
-                "subtotal":"SUB TOTAL",
-                "discount":"Descuento",
-                "igv":"I.G.V",
-                "icbper":"ICBPER",
-                "total":"TOTAL",
-                "product_quantity":"Cantidad de Productos",
-                "cash":"Efectivo",
-                "change":"Vuelto",
-                "transfer":"Transferencia",
-                "card":"Tarjeta",
-                "balance_payable":"Saldo por pagar"
-            },
-            "footer":
-            {}
-        }
+        "cashier": "Cajero",
+
+        "voucher_pay_type": "Condiciones Pago",
+        "voucher_issue_date": "Fecha emisión",
+        "voucher_validation_offer": "Validez de oferta",
+
+        "doc_ref_title": "Doc. Referencia",
+        "doc_reason": "Motivo",
+        "doc_ref_reference": "Referencia",
+        "doc_issue_date": "Fecha de emisión",
+
+        "product_code": "Código",
+        "product_description": "Descripción",
+        "product_unit": "Unidad",
+        "product_quantity": "Cantidad",
+        "product_u_value": "Valor Unitario",
+        "product_sale_value": "Valor Venta",
+
+        "checkout_price_txt": "SON",
+        "checkout_subtotal": "SUB TOTAL",
+        "checkout_discount": "Descuento",
+        "checkout_total": "TOTAL",
+        "checkout_product_quantity": "Cantidad de Productos",
+        "checkout_cash": "Efectivo",
+        "checkout_change": "Vuelto",
+        "checkout_transfer": "Transferencia",
+        "checkout_card": "Tarjeta",
+        "checkout_remaining": "Saldo por pagar"
     },
     "pages":
     {
@@ -127,37 +45,9 @@
         }
     },
     "error": {
-        "working": "Página en progreso. Regresa pronto",
+        "working": "Página en mantenimiento. Pronto estará listo",
         "network": "Hubo un error inesperado con la conexión.",
 		"general": "Lo sentimos, tuvimos un problema inesperado.."
-    },
-    "filters":
-    {
-        "since":"Desde",
-        "to":"Hasta"
-    },
-    "buttons":
-    {
-        "today":"Hoy",
-        "sell": "Vender",
-        "exportation":
-        {
-            "excel": "Exportar como Excel",
-            "pdf": "Exportar como PDF"
-        },
-        "importation":
-        {
-            "excel": "Importar desde Excel"
-        },
-        "delete": "Eliminar",
-        "cancel": "Cancelar",
-        "save": "Guardar",
-        "update": "Actualizar"
-    },
-    "table":
-    {
-        "gotopage":"Ir a la página",
-        "selectpage":"Selecciona una página"
     },
     "nav": {
         "links": {
