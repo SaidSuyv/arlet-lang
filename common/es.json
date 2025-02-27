@@ -34,16 +34,6 @@
         "checkout_card": "Tarjeta",
         "checkout_remaining": "Saldo por pagar"
     },
-    "pages":
-    {
-        "welcome": {
-            "p1":"Bienvenido al Panel de Control",
-            "p2":"Seleccione una opción de la lista para continuar"
-        },
-        "select": {
-            "p1":"Selecciona una opción del menú"
-        }
-    },
     "error": {
         "working": "Página en mantenimiento. Pronto estará listo",
         "network": "Hubo un error inesperado con la conexión.",
