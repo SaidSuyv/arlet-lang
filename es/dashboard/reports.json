@@ -1,4 +1,62 @@
 {
+    "pages":
+    {
+        "resume":
+        {
+            "buttons":
+            {
+                "today": "Hoy",
+                "excel": "Exportar por Excel",
+                "pdf": "Exportar por PDF"
+            },
+            "inputs":
+            {
+                "from_date": "Desde",
+                "to_date": "Hasta",
+                "filter_by_user": "Usuarios",
+                "filter_by_voucher": "Comprobantes"
+            },
+            "tabs":
+            {
+                "resume":
+                {
+                    "tabname": "Resumen de Ventas",
+                    "title": "Reporte de Resumen de Ventas",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "user":
+                {
+                    "tabname": "Ventas por Usuario",
+                    "title": "Reporte de Ventas por Usuario",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                },
+                "voucher":
+                {
+                    "tabname": "Ventas por Comprobantes",
+                    "title": "Reporte de Ventas por Comprobantes",
+                    "table":
+                    {
+                        "date": "Fecha",
+                        "gross_sale": "Venta Bruta",
+                        "product_cost": "Costo de Producto",
+                        "profit": "Ganancia"
+                    }
+                }
+            }
+        }
+    },
     "subpages":
     {
         "summary":

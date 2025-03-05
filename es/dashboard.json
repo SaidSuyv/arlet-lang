@@ -9,7 +9,7 @@
       {
         "sales_summary": { "text": "Resumen de Ventas" },
         "charge_credit": { "text": "Créditos por Cobrar" },
-        "product": { "text": "Productos" },
+        "products": { "text": "Productos" },
         "sales_record": { "text": "Registro de Ventas" },
         "cpe_record": { "text": "Registro CPE Sunat" }
       }
@@ -34,7 +34,7 @@
   },
   "buttons":
   {
-    "header":{ "sell": "" }
+    "header":{ "sell": "Venta" }
   },
   "indexes":
   {
