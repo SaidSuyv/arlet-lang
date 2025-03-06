@@ -10,19 +10,18 @@
             },
             "sections":
             {
-                "actors":
+                "people":
                 {
-                    "title":"Actores",
+                    "title":"Personas",
                     "options":
                     {
                         "users":"Usuarios",
-                        "providers": "Proveedores",
                         "clients": "Clientes"
                     }
                 },
                 "business":
                 {
-                    "title":"Negocio",
+                    "title":"Negocios",
                     "options":
                     {
                         "business":"Empresa",
