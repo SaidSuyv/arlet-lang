@@ -54,12 +54,12 @@
             "info":
             {
                 "active": "Usuarios activos",
-                "archived": "Usuarios archivados"
+                "inactive": "Usuarios inactivos"
             },
             "tabs":
             {
-                "active": "Usuarios activos",
-                "archived": "Usuarios archivados"
+                "active": { "tabname": "Usuarios activos" },
+                "inactive": { "tabname": "Usuarios inactivos" }
             },
             "table":
             {
@@ -75,9 +75,9 @@
                 {
                     "buttons":
                     {
-                        "archive": "Archivar",
                         "edit": "Editar",
-                        "restore": "Restaurar"
+                        "deactivate": "Inhabilitar",
+                        "activate": "Habilitar"
                     },
                     "selected": "Usuarios seleccionado(s)"
                 }
