@@ -89,8 +89,9 @@
                     "title": "Nuevo usuario",
                     "img":
                     {
-                        "add": "Agregar imagen",
-                        "label": "La imagen no puede exceder los 3MB"
+                        "load": "Cargar imagen",
+                        "save": "Guardar imagen",
+                        "edit": "Editar imagen"
                     },
                     "inputs":
                     {
