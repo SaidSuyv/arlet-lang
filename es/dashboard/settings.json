@@ -95,7 +95,11 @@
                     {
                         "load": "Cargar imagen",
                         "save": "Guardar imagen",
-                        "edit": "Editar imagen"
+                        "edit": "Editar imagen",
+                        "errors":
+                        {
+                            "max_file_size": "El archivo no debe ser mayor a 4MB"
+                        }
                     },
                     "inputs":
                     {
