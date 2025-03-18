@@ -71,6 +71,10 @@
                     "email": "Correo electronico",
                     "role": "Rol"
                 },
+                "labels":
+                {
+                  "loading":"Cargando..."
+                },
                 "selection":
                 {
                     "buttons":
