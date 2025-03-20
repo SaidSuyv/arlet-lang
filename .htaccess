@@ -1,6 +1,6 @@
 <FilesMatch "\.json$">
     <IfModule mod_headers.c>
-        SetEnvIf Origin "^https?://(arlet\.duckdns\.com)$" AccessControlAllowOrigin=$0
+        SetEnvIf Origin "http(s)?://(localhost|localhost:5173|localhost:8080|192.168.1.104:5173|192.168.1.104:8080)$" AccessControlAllowOrigin=$0
         Header set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
     </IfModule>
     Header set Access-Control-Allow-Methods "GET, OPTIONS"
