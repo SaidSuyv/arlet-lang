@@ -1,13 +1,5 @@
 {
   "arlet": "Tu punto de venta",
-  "texts":
-  {
-    "forgot": "¿Olvidaste tu contraseña?"
-  },
-  "links":
-  {
-    "recover": "Recuperala"
-  },
   "buttons":
   {
     "signin": "Inicia sesión"
@@ -16,5 +8,11 @@
   {
     "username": "Nombre de usuario",
     "password": "Contraseña"
+  },
+  "error":
+  {
+    "no_data":"No se ha podido verificar la informacion. Regrese más tarde.",
+    "no_logged":"Credenciales incorrectas.",
+    "server_error":"Hubo un error inesperado, intente más tarde."
   }
 }
