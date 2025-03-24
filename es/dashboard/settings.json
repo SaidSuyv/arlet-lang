@@ -96,6 +96,7 @@
                         "load": "Cargar imagen",
                         "save": "Guardar imagen",
                         "edit": "Editar imagen",
+                        "delete": "Eliminar imagen",
                         "errors":
                         {
                             "max_file_size": "El archivo no debe ser mayor a 4MB"
@@ -129,6 +130,7 @@
                         "load": "Cargar imagen",
                         "save": "Guardar imagen",
                         "edit": "Editar imagen",
+                        "delete": "Eliminar imagen",
                         "errors":
                         {
                             "max_file_size": "El archivo no debe ser mayor a 4MB"
@@ -146,6 +148,10 @@
                     {
                         "cancel": "Cancelar",
                         "save": "Guardar"
+                    },
+                    "error":
+                    {
+                        "unexpected": "Se ha producido un error inesperado."
                     }
                 }
             }
