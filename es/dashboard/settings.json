@@ -46,6 +46,10 @@
         },
         "users":
         {
+            "error":
+            {
+                "unexpected": "Se ha producido un error inesperado."
+            },
             "buttons":
             {
                 "back": "Usuarios",
