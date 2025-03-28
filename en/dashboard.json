@@ -1,0 +1,51 @@
+{
+  "nav":
+  {
+    "summary":{ "text": "Summary" },
+    "reports":
+    {
+      "text": "Reports",
+      "links":
+      {
+        "sales_summary": { "text": "Sales summary" },
+        "charge_credit": { "text": "Charge credit" },
+        "products": { "text": "Products" },
+        "sales_record": { "text": "Sales records" },
+        "cpe_record": { "text": "CPE Sunat records" }
+      }
+    },
+    "vouchers":
+    {
+      "text": "Digital vouchers",
+      "links":
+      {
+        "bills": { "text": "Bills" },
+        "sale_slips": { "text": "Sale slips" },
+        "credit_notes": { "text": "Credit notes" },
+        "debit_notes": { "text": "Debit notes" },
+        "cancel_comms": { "text": "Cancel comms" }
+      }
+    },
+    "sales_made": { "text": "Sales made" },
+    "products": { "text": "Products" },
+    "inventory":{ "text": "Inventory" },
+    "config": { "text": "Configuration" },
+    "logout": { "text": "Log out" }
+  },
+  "buttons":
+  {
+    "header":{ "sell": "Sell" }
+  },
+  "indexes":
+  {
+    "welcome":
+    {
+      "p1": "Welcome to Control Panel",
+      "p2": "Select an option of the list to continue"
+    },
+    "menu":
+    {
+      "p1": "Select an option of the menu"
+    }
+  }
+}

@@ -1,0 +1,475 @@
+{
+    "pages":
+    {
+        "index":
+        {
+            "buttons":
+            {
+                "see_as_list": "See as list",
+                "see_as_icon": "See as icon"
+            },
+            "sections":
+            {
+                "people":
+                {
+                    "title":"People",
+                    "options":
+                    {
+                        "users":"Users",
+                        "clients": "Clients"
+                    }
+                },
+                "business":
+                {
+                    "title":"Businesses",
+                    "options":
+                    {
+                        "business":"Business",
+                        "cash_register": "Cash Registers",
+                        "serialization": "Serialization",
+                        "send_reports": "Send Reports"
+                    }
+                },
+                "customization":
+                {
+                    "title":"Personalization",
+                    "options":
+                    {
+                        "voucher_design": "Voucher Design",
+                        "notifications": "Notifications",
+                        "printers": "Printers",
+                        "ftp" : "FTP",
+                        "language": "Language"
+                    }
+                }
+            }
+        },
+        "users":
+        {
+            "error":
+            {
+                "unexpected": "An unexpected error has ocurred."
+            },
+            "buttons":
+            {
+                "back": "Users",
+                "new": "New user"
+            },
+            "info":
+            {
+                "active": "Active Users",
+                "inactive": "Inactive Users"
+            },
+            "tabs":
+            {
+                "active": { "tabname": "Active Users" },
+                "inactive": { "tabname": "Inactive Users" }
+            },
+            "table":
+            {
+                "header":
+                {
+                    "name": "Name",
+                    "lastName": "Lastname",
+                    "username": "Username",
+                    "email": "Email",
+                    "role": "Role"
+                },
+                "labels":
+                {
+                    "loading":"Loading..."
+                },
+                "selection":
+                {
+                    "buttons":
+                    {
+                        "edit": "Edit",
+                        "deactivate": "Deactivate",
+                        "activate": "Activate"
+                    },
+                    "selected": "Selected user(s)"
+                }
+            },
+            "modal":
+            {
+                "new_user":
+                {
+                    "title": "New User",
+                    "img":
+                    {
+                        "load": "Upload image",
+                        "save": "Save image",
+                        "edit": "Edit image",
+                        "delete": "Delete image",
+                        "errors":
+                        {
+                            "max_file_size": "File can't be more than 4MB"
+                        }
+                    },
+                    "inputs":
+                    {
+                        "name": "Name",
+                        "lastname": "Lastname",
+                        "username": "Username",
+                        "password": "Password",
+                        "email": "Email",
+                        "role": "Role",
+                        "keep_adding": "Keep adding users"
+                    },
+                    "buttons":
+                    {
+                        "cancel": "Cancel",
+                        "create": "Create new user"
+                    },
+                    "error":
+                    {
+                        "unexpected": "An unexpected error has ocurred."
+                    }
+                },
+                "edit_user":
+                {
+                    "title": "Edit user",
+                    "img":
+                    {
+                        "load": "Upload image",
+                        "save": "Save image",
+                        "edit": "Edit image",
+                        "delete": "Delete image",
+                        "errors":
+                        {
+                            "max_file_size": "File can't be more than 4MB"
+                        }
+                    },
+                    "inputs":
+                    {
+                        "name": "Name",
+                        "lastname": "Lastname",
+                        "password": "Password",
+                        "email": "Email",
+                        "role": "Role"
+                    },
+                    "buttons":
+                    {
+                        "cancel": "Cancel",
+                        "save": "Save"
+                    },
+                    "error":
+                    {
+                        "unexpected": "An unexpected error has ocurred.."
+                    }
+                }
+            }
+        },
+        "clients":
+        {
+            "buttons":
+            {
+                "back": "Clients",
+                "new": "New client"
+            },
+            "info":
+            {
+                "active": "Active Clients",
+                "archived": "Inactive Clients"
+            },
+            "tabs":
+            {
+                "active": "Active Clients",
+                "archived": "Inactive Clients"
+            },
+            "table":
+            {
+                "header":
+                {
+                    "name": "Name",
+                    "address": "Address",
+                    "email": "Email",
+                    "docnum": "Document Number",
+                    "phone": "Phone",
+                    "balance": "Balance"
+                },
+                "selection":
+                {
+                    "buttons":
+                    {
+                        "archive": "Archive",
+                        "edit": "Edit",
+                        "restore": "Restore"
+                    },
+                    "selected": "Selected client(s)"
+                }
+            },
+            "modal":
+            {
+                "new_user":
+                {
+                    "title": "New Client",
+                    "inputs":
+                    {
+                        "name": "Names",
+                        "phone": "Telephone",
+                        "address": "Address",
+                        "email": "Email",
+                        "doctype": "Document Type",
+                        "docnum": "Document ID Number",
+                        "keep_adding": "Keep adding clients"
+                    },
+                    "buttons":
+                    {
+                        "cancel": "Cancel",
+                        "create": "Create new client"
+                    }
+                }
+            }
+        },
+        "company":
+        {
+            "buttons":
+            {
+                "back": "Company",
+                "update": "Update"
+            },
+            "sections":
+            {
+                "basic": 
+                {
+                    "title": "Basic",
+                    "img":
+                    {
+                        "label": "Drag & drop or search for an image"
+                    },
+                    "inputs":
+                    {
+                        "comercial_name": "Commercial Name",
+                        "tax_type": "Tax",
+                        "igv":"I.G.V"
+                    }
+                },
+                "advanced":
+                {
+                    "title": "Advanced",
+                    "inputs":
+                    {
+                        "currency_per_country":
+                        {
+                            "label": "Country's Currency",
+                            "name": "Name"
+                        },
+                        "ubication": 
+                        {
+                            "label": "Location",
+                            "placeholder": "Department/Province/District",
+                            "department": "Departament",
+                            "province": "Province",
+                            "district": "District",
+                            "ubigeo": "Ubigeo"
+                        },
+                        "fiscal_address":
+                        {
+                            "label": "Fiscal Address"
+                        },
+                        "annex_facility": 
+                        {
+                            "label": "Annex Facility"
+                        },
+                        "email":
+                        {
+                            "label": "Email"
+                        }
+                    }
+                },
+                "digital_voucher":
+                {
+                    "title": "Digital Voucher",
+                    "inputs":
+                    {
+                        "connect": "Connect to SUNAT for Digital Vouchering",
+                        "company_name": "Company Name",
+                        "ruc": "RUC ID",
+                        "certification": "Certification",
+                        "certification_password": "Certification Password",
+                        "secondary_sunat_user": "SUNAT Secondary User",
+                        "secondary_sunat_password": "SUNAT Secondary Password",
+                        "sunat_server": "SUNAT Server",
+                        "consultation_website": "Consulting Website"
+                    }
+                }
+            }
+        },
+        "serialization":
+        {
+            "inputs":
+            {
+                "search_placeholder":"Complete Serial Number"
+            },
+            "buttons":
+            {
+                "back": "Serialization",
+                "add_new": "Add Serialization"
+            },
+            "table":
+            {
+                "header":
+                {
+                    "serial": "Complete Serial Number",
+                    "voucher": "Voucher",
+                    "default": "Default",
+                    "automatic_send": "Automatic Send",
+                    "state": "Status"
+                }
+            },
+            "modal":
+            {
+                "add_new":
+                {
+                    "title": "Add New Serialization",
+                    "inputs":
+                    {
+                        "voucher_type":{"label": "Select a Document Voucher Type"},
+                        "voucher":{"label": "Voucher"},
+                        "serial":{"label":"Serial Number"},
+                        "amount_serial_digits":{"label":"Serial Digit Amount"},
+                        "correlative_serial":{"label":"Correlative Serial Number"},
+                        "amount_serial_numeration":{"label":"Numeration Serial Amount"},
+                        "correlative":{"label":"Correlative"},
+                        "doc_reference":{"label":"Doc. Reference"},
+                        "states":
+                        {
+                            "title": "Status",
+                            "checkbox":
+                            {
+                                "send": "Send",
+                                "auto_send": "Send automatically",
+                                "default": "Set as Default",
+                                "keep_adding": "Keep adding serial"
+                            }
+                        }
+                    },
+                    "buttons":
+                    {
+                        "cancel": "Cancel",
+                        "create": "Create Serialization"
+                    }
+                }
+            }
+        },
+        "send_reports":
+        {
+            "inputs":
+            {
+                "destiny_name": "Target Name",
+                "destiny_email": "Target Email",
+                "action": "Action"
+            },
+            "buttons":
+            {
+                "back": "Send Reports",
+                "save": "Save"
+            }
+        },
+        "voucher_design":
+        {
+            "buttons":
+            {
+                "back":"Voucher Design",
+                "save": "Save"
+            },
+            "inputs":
+            {
+                "ruc_identifier":"Fiscal RUC Identification",
+                "address":"Company address",
+                "province": "Province",
+                "department": "Departament",
+                "country": "Country",
+                "webpage": "Website",
+                "phone_contact": "Contact Phone Number",
+                "currency": "Currency",
+                "greetings": "Greetings",
+                "ad_marketing": "Ad - Marketing",
+                "additional_data": "Fiscal Data - Authorization Number - Resolution"
+            },
+            "tabs":
+            {
+                "a4_design":
+                {
+                    "tabname":"A4 Design",
+                    "inputs":
+                    {
+                        "ruc_identifier":"Fiscal RUC Identification Number",
+                        "address":"Company address",
+                        "province": "Province",
+                        "department": "Departament",
+                        "country": "Country",
+                        "webpage": "Website",
+                        "phone_contact": "Contact Phone Number",
+                        "currency": "Currency",
+                        "greetings": "Greetings",
+                        "ad_marketing": "Ads - Marketing",
+                        "additional_data": "Fiscal Data - Authorization Number - Resolution"
+                    }
+                },
+                "ticket_design":
+                {
+                    "tabname": "80mm Design",
+                    "inputs":
+                    {
+                        "ruc_identifier":"Fiscal RUC Identification Number",
+                        "address":"Company Address",
+                        "province": "Province",
+                        "department": "Departament",
+                        "country": "Country",
+                        "webpage": "Website",
+                        "phone_contact": "Contact Phone Number",
+                        "currency": "Currency",
+                        "greetings": "Greetings",
+                        "ad_marketing": "Ads - Marketing",
+                        "additional_data": "Fiscal Data - Authorization Number - Resolution"
+                    }
+                }
+            }
+        },
+        "notifications":
+        {
+            "title": "E-MAIL System",
+            "buttons":
+            {
+                "back":"Notifications",
+                "save": "Save"
+            },
+            "inputs":
+            {
+                "name": "Name",
+                "email":"Email",
+                "password":"Password",
+                "host": "Host",
+                "port": "Port"
+            }
+        },
+        "ftp": 
+        {
+            "buttons": 
+            {
+                "back": "FTP",
+                "save": "Save"
+            },
+            "inputs": 
+            {
+                "server": "FTP Server",
+                "user": "User",
+                "password": "Password"
+            }
+        },
+        "language":
+        {
+            "buttons":
+            {
+                "save":"Save",
+                "back": "Languages"
+            },
+            "inputs":
+            {
+                "select":"Select a language"
+            }
+        }
+    }
+}
