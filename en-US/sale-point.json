@@ -3,32 +3,33 @@
   {
     "button":
     {
-      "charge":"Charge",
-      "cancel_sale":"Cancel Sale"
+      "charge":"Cobrar",
+      "cancel_sale":"Eliminar venta",
+      "back_to_sale": "Regresar a la venta"
     },
     "payment_area":
     {
       "total":"Total",
-      "discount":"Disc.",
+      "discount":"Desc.",
       "subtotal":"Sub-total",
       "igv":"I.G.V",
       "icbper":"ICBPER",
-      "discount_text": "Discount"
+      "discount_text": "Descuento"
     },
     "menu":
     {
-      "close_turn":"Close turn",
-      "sales_made":"Sale Made",
-      "credit_notes":"Credit Notes",
-      "debit_notes":"Debit Notes",
-      "cancel_voucher":"Cancel Voucher",
-      "products":"Products",
-      "product_income":"Product Income",
-      "product_outcome":"Product Outcome"
+      "close_turn":"Cerrar turno",
+      "sales_made":"Ventas Realizadas",
+      "credit_notes":"Notas de Crédito",
+      "debit_notes":"Notas de Débito",
+      "cancel_voucher":"Anular Comprob.",
+      "products":"Productos",
+      "product_income":"Entrada de Producto",
+      "product_outcome":"Salida de Producto"
     },
     "notifications":
     {
-      "title":"Notifications"
+      "title":"Notificaciones"
     }
   },
   "pages":
@@ -37,16 +38,16 @@
     {
       "inputs":
       {
-        "search": "Search by keyboard"
+        "search": "Busqueda por teclado"
       },
-      "empty_search": "There are no coincidences",
-      "empty_page":"Search for a product to begin",
+      "empty_search": "No hay coincidencias",
+      "empty_page":"Busque un producto para empezar",
       "item":
       {
-        "code":"Code",
-        "p_unit":"Unit P.",
-        "import":"Import",
-        "unit":"Unit.",
+        "code":"Código",
+        "p_unit":"P. Unitario",
+        "import":"Importe",
+        "unit":"Unid.",
         "stock":"Stock"
       }
     },
@@ -54,54 +55,87 @@
     {
       "buttons":
       {
-        "back":"Get back",
-        "cancel":"Cancel Sale",
-        "finalize": "Finalize Sale"
+        "back":"Regresar a Venta",
+        "cancel":"Cancelar venta",
+        "finalize": "Finalizar Venta"
       },
       "inputs":
       {
-        "cash":"Cash",
-        "card":"Card",
-        "transfer":"Transfer",
-        "credit":"Credit",
-        "change":"Change",
-        "remaining":"Remaining"
+        "cash":"Efectivo",
+        "card":"Tarjeta",
+        "transfer":"Transferencia",
+        "credit":"Crédito",
+        "change":"Vuelto",
+        "remaining":"Restante"
       },
       "fees":
       {
-        "title":"Divide by fees",
+        "title":"Dividir en cuotas",
         "buttons":
         {
-          "edit":"Edit fees",
-          "close":"Close"
+          "edit":"Editar cuotas",
+          "close":"Cerrar"
         },
         "total":"Total",
-        "fees":"Fees",
-        "fee":"Fee",
-        "expiration":"Expiration",
-        "import":"Import",
-        "import_per_fee":"Import per fee",
-        "fee_count":"Fee n°",
-        "expiration_date":"Expiration date",
-        "remaining":"Remaining"
+        "fees":"Cuotas",
+        "fee":"Cuota",
+        "expiration":"Vencimiento",
+        "import":"Importe",
+        "import_per_fee":"Importe por cuota",
+        "fee_count":"Nro Coutas",
+        "expiration_date":"Fecha de vencimiento",
+        "remaining":"Restante"
       },
       "details":
       {
         "buttons":
         {
-          "invoice":"Invoice",
-          "sale_slip":"Sale Slip"
+          "invoice":"Factura",
+          "sale_slip":"Boleta de venta"
         },
         "inputs":
         {
-          "select_a_client":"Select a client"
+          "select_a_client":"Seleccione un cliente"
         },
-        "client_information":"Client Information",
-        "location":"Location",
-        "phone":"Phone",
-        "email":"Email",
+        "client_information":"Información del cliente",
+        "location":"Ubicación",
+        "phone":"Teléfono",
+        "email":"Correo electrónico",
         "ruc_dni":"RUC / DNI",
-        "select_to_visualize":"Select to visualize"
+        "select_to_visualize":"Seleccione para visualizar"
+      }
+    },
+    "sales":
+    {
+      "selectors":
+      {
+        "date":
+        {
+          "today": "Hoy",
+          "from": "Desde",
+          "to": "Hasta"
+        },
+        "search": "Busqueda por comprobante",
+        "table":
+        {
+          "date": "Fecha",
+          "voucher": "Comprobante",
+          "total": "Imp. total"
+        }
+      },
+      "viewer":
+      {
+        "buttons":
+        {
+          "close": "Cerrar vista",
+          "download": "Descargar"
+        },
+        "error":
+        {
+          "p1": "Al parecer no se pudo construir la visualización",
+          "p2": "Por favor descarguelo para visualizar"
+        },
+        "index": "Seleccione una venta de la lista para visualizar"
       }
     }
   }

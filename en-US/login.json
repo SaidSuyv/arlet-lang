@@ -1,0 +1,18 @@
+{
+  "arlet": "Your sale point",
+  "buttons":
+  {
+    "signin": "Sign in"
+  },
+  "inputs":
+  {
+    "username": "Username",
+    "password": "Password"
+  },
+  "error":
+  {
+    "no_data":"We couldn't verify the information. Come back later.",
+    "no_logged":"Incorrect credentials.",
+    "server_error":"There was an unexpected error, try again later."
+  }
+}

@@ -4,7 +4,8 @@
     "button":
     {
       "charge":"Cobrar",
-      "cancel_sale":"Eliminar venta"
+      "cancel_sale":"Eliminar venta",
+      "back_to_sale": "Regresar a la venta"
     },
     "payment_area":
     {
@@ -102,6 +103,39 @@
         "email":"Correo electrónico",
         "ruc_dni":"RUC / DNI",
         "select_to_visualize":"Seleccione para visualizar"
+      }
+    },
+    "sales":
+    {
+      "selectors":
+      {
+        "date":
+        {
+          "today": "Hoy",
+          "from": "Desde",
+          "to": "Hasta"
+        },
+        "search": "Busqueda por comprobante",
+        "table":
+        {
+          "date": "Fecha",
+          "voucher": "Comprobante",
+          "total": "Imp. total"
+        }
+      },
+      "viewer":
+      {
+        "buttons":
+        {
+          "close": "Cerrar vista",
+          "download": "Descargar"
+        },
+        "error":
+        {
+          "p1": "Al parecer no se pudo construir la visualización",
+          "p2": "Por favor descarguelo para visualizar"
+        },
+        "index": "Seleccione una venta de la lista para visualizar"
       }
     }
   }

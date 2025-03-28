@@ -1,0 +1,13 @@
+{
+    "text":
+    {
+        "logout":"Cerrar sesión de",
+        "username": "Nombre de usuario",
+        "email": "Correo electrónico",
+        "digysoft":"Soluciones de software y tecnologías de la información para tu empresa"
+    },
+    "buttons":
+    {
+        "logout":"Salir"
+    }
+}
